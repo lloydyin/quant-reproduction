@@ -1,0 +1,59 @@
+{
+  "settings": {
+    "mass": 0.9,
+    "pilot_trees": 32,
+    "coverage_reserve": 0.2,
+    "min_fraction": 0.25,
+    "max_fraction": 0.75,
+    "final_trees": 200,
+    "selection_rule": "within 0.005 of best validation accuracy, then minimum feature fraction",
+    "development_datasets": [
+      "AsphaltPavementTypeUniEq",
+      "CricketX",
+      "Crop",
+      "DistalPhalanxOutlineCorrect",
+      "ElectricDevices",
+      "FloodModeling1Discrete",
+      "FordA",
+      "GestureMidAirD1Eq",
+      "GesturePebbleZ2Eq",
+      "GunPointOldVersusYoung",
+      "Haptics",
+      "LargeKitchenAppliances",
+      "MelbournePedestrianNmv",
+      "MiddlePhalanxTW",
+      "NonInvasiveFetalECGThorax1",
+      "PLAIDEq",
+      "PhoneHeartbeatSound",
+      "ShapesAll",
+      "SmoothSubspace",
+      "SwedishLeaf",
+      "Trace",
+      "UWaveGestureLibraryX",
+      "Wafer",
+      "WormsTwoClass"
+    ],
+    "development_folds": 3,
+    "development_data": "original TRAIN only",
+    "protocol_sha256": "0840ad90ac8920979277e70bbc0b6373c2cb1cb2b427fc51f36cc487c55e6dfd",
+    "validation_sha256": "32dcc8896c852c014ac45109e50bc78d1683910c5b9a910c4934b814ac32e386"
+  },
+  "settings_sha256": "1092c25cce463bd431b2fe4f5835ee54fda56d260651d33709e7857b17a131d5",
+  "feature_budget_sha256": "bed01e5b5ebadac031dcf95e8d126a4e66f543bd8011e7f837a7034ff5e58c5b",
+  "n_jobs": 8,
+  "methods": [
+    "baseline",
+    "uniform_half",
+    "fisher_half",
+    "pilot_half",
+    "adaptive_pilot"
+  ],
+  "resamples": 5,
+  "numpy_version": "1.26.4",
+  "timing": "downstream selection + final fit; common feature extraction excluded",
+  "pilot_charged_to_each_variant": true,
+  "index_sha256": {
+    "java": "1a0bec9f78a4dedd23e5685aaaefc2ed78b01f0060fdfc3f07a2192d0beda09f",
+    "python": "3af7165c8a3b9d49db795260238be63262804e34a743ab5641ef397cedd0bca3"
+  }
+}

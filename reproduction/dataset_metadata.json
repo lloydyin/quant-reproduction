@@ -1,0 +1,4559 @@
+{
+  "AconityMINIPrinterLargeEq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\AconityMINIPrinterLarge_eq\\AconityMINIPrinterLarge_eq_TRAIN.ts": "c29a714d770e19fcd4ed7b2195581db0e3f4ef13907f8af6004239421ff80bc8",
+        "data_extra\\new_datasets\\AconityMINIPrinterLarge_eq\\AconityMINIPrinterLarge_eq_TEST.ts": "90f8adb7e07d4ba529c721cd2b66da516ced5f403bffd48c085b987a0ac09758"
+      }
+    },
+    "n_train": 2403,
+    "n_test": 1184,
+    "length": 300,
+    "n_features": 2889,
+    "n_classes": 2,
+    "classes": [
+      "0",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 3.242558600000848,
+    "transform_train_batched_seconds": 2.0270410000011907,
+    "transform_test_batched_seconds": 0.9979488999997557
+  },
+  "AconityMINIPrinterSmallEq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\AconityMINIPrinterSmall_eq\\AconityMINIPrinterSmall_eq_TRAIN.ts": "6e00fd46f7078ea477065fd8825d233adf76cb2768a6dee3d1b8b09ca8ef56f4",
+        "data_extra\\new_datasets\\AconityMINIPrinterSmall_eq\\AconityMINIPrinterSmall_eq_TEST.ts": "407c4387867f400cda038c3ad980fd5fb686fcd44481199e4b77164c8e3f7007"
+      }
+    },
+    "n_train": 589,
+    "n_test": 292,
+    "length": 300,
+    "n_features": 2889,
+    "n_classes": 2,
+    "classes": [
+      "0",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.8355789999986882,
+    "transform_train_batched_seconds": 0.5213124000001699,
+    "transform_test_batched_seconds": 0.25275950000104785
+  },
+  "ACSF1": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ACSF1\\ACSF1_TRAIN.ts": "4702fb8aa0dacac47b5211b14758c9f1a87c0e2e721023716a94b60a715719b8",
+        "data\\ACSF1\\ACSF1_TEST.ts": "6d87b3a1e79e331436501417d77a161b7e68e677f7db6ed552ef67dcbc0d887b"
+      }
+    },
+    "n_train": 100,
+    "n_test": 100,
+    "length": 1460,
+    "n_features": 13021,
+    "n_classes": 10,
+    "classes": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.6608915000006164,
+    "transform_train_batched_seconds": 0.31231170000046404,
+    "transform_test_batched_seconds": 0.29372929999954067
+  },
+  "Adiac": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Adiac\\Adiac_TRAIN.ts": "f2cbbe9c25448bd084488318000640466a5adcea239eded0b7ec6b4f0526bcaa",
+        "data\\Adiac\\Adiac_TEST.ts": "5e86ea7a1de93f8d0745e6b81760867c893c32b825295428630c18e15799a55f"
+      }
+    },
+    "n_train": 390,
+    "n_test": 391,
+    "length": 176,
+    "n_features": 1757,
+    "n_classes": 37,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.5389534000005369,
+    "transform_train_batched_seconds": 0.2649536999997508,
+    "transform_test_batched_seconds": 0.2488723000005848
+  },
+  "AllGestureWiimoteXEq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\AllGestureWiimoteX_eq\\AllGestureWiimoteX_eq_TRAIN.ts": "0a0dd1621692f744ead62b09d4fd2baf3a6e4d652afb850573f1b0877db2887f",
+        "data_extra\\new_datasets\\AllGestureWiimoteX_eq\\AllGestureWiimoteX_eq_TEST.ts": "a82cd17dc43e8e85f966908a222ebf49c24f12a43dfb6c6abb4adbd980fd3ff9"
+      }
+    },
+    "n_train": 300,
+    "n_test": 700,
+    "length": 500,
+    "n_features": 4469,
+    "n_classes": 10,
+    "classes": [
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.374859400000787,
+    "transform_train_batched_seconds": 0.3846489000006841,
+    "transform_test_batched_seconds": 0.8522317999995721
+  },
+  "AllGestureWiimoteYEq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\AllGestureWiimoteY_eq\\AllGestureWiimoteY_eq_TRAIN.ts": "c857d15ee9b67feca06e359ca7d7087081eb48d3eb77a4340f1d2a18c1246d39",
+        "data_extra\\new_datasets\\AllGestureWiimoteY_eq\\AllGestureWiimoteY_eq_TEST.ts": "dd4e8237ecd80e4bf8a4bd7579c9338da8cab1aef8f67b2cffbd3bc24aec7c36"
+      }
+    },
+    "n_train": 300,
+    "n_test": 700,
+    "length": 500,
+    "n_features": 4469,
+    "n_classes": 10,
+    "classes": [
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.3314917000006972,
+    "transform_train_batched_seconds": 0.3705745000006573,
+    "transform_test_batched_seconds": 0.8246034000003419
+  },
+  "AllGestureWiimoteZEq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\AllGestureWiimoteZ_eq\\AllGestureWiimoteZ_eq_TRAIN.ts": "8509324acf0446dda034807cbff17771a0e00033f0cc3de516a8bb78d292243c",
+        "data_extra\\new_datasets\\AllGestureWiimoteZ_eq\\AllGestureWiimoteZ_eq_TEST.ts": "2ca00195525389c43d40f1abdb09743a3e89f81f7aa4099ccf5bd58f955f6731"
+      }
+    },
+    "n_train": 300,
+    "n_test": 700,
+    "length": 500,
+    "n_features": 4469,
+    "n_classes": 10,
+    "classes": [
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.3450429000004078,
+    "transform_train_batched_seconds": 0.37620289999904344,
+    "transform_test_batched_seconds": 0.8350207999992563
+  },
+  "ArrowHead": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ArrowHead\\ArrowHead_TRAIN.ts": "c8d05bad3e4428b63f809ccda018af93ae6e0bdb25d3496a1afb4633ad18195f",
+        "data\\ArrowHead\\ArrowHead_TEST.ts": "d646bb8766cad77cf4263b9ac37188414462f60898af942821a30204347fdccf"
+      }
+    },
+    "n_train": 36,
+    "n_test": 175,
+    "length": 251,
+    "n_features": 2242,
+    "n_classes": 3,
+    "classes": [
+      "0",
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.18622810000033496,
+    "transform_train_batched_seconds": 0.045891800000390504,
+    "transform_test_batched_seconds": 0.12246520000007877
+  },
+  "AsphaltObstaclesUniEq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\AsphaltObstaclesUni_eq\\AsphaltObstaclesUni_eq_TRAIN.ts": "7bc2412131614f68beb555bb88694d6297e2f8e4d3556db52427d3371d22fad3",
+        "data_extra\\new_datasets\\AsphaltObstaclesUni_eq\\AsphaltObstaclesUni_eq_TEST.ts": "3d22b6b3e44090a8c66aa41bb9647e878abb48b968d089de993dbf33991b7977"
+      }
+    },
+    "n_train": 390,
+    "n_test": 391,
+    "length": 736,
+    "n_features": 6580,
+    "n_classes": 4,
+    "classes": [
+      "raised_crosswalk",
+      "raised_markers",
+      "speed_bump",
+      "vertical_patch"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.528943799999979,
+    "transform_train_batched_seconds": 0.6941519000010885,
+    "transform_test_batched_seconds": 0.6735736999999062
+  },
+  "AsphaltPavementTypeUniEq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\AsphaltPavementTypeUni_eq\\AsphaltPavementTypeUni_eq_TRAIN.ts": "2a9882cad755a53bb635700a20968a781c5ba94930e04bd7065e1ce8a933c843",
+        "data_extra\\new_datasets\\AsphaltPavementTypeUni_eq\\AsphaltPavementTypeUni_eq_TEST.ts": "e4d5eb3f4bd884a2d6c8b96c14a2e6ed91cf183f7a1f4a297b60b7e17707cd36"
+      }
+    },
+    "n_train": 1055,
+    "n_test": 1056,
+    "length": 2371,
+    "n_features": 20989,
+    "n_classes": 3,
+    "classes": [
+      "cobblestone",
+      "dirt",
+      "flexible"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 13.347500399999262,
+    "transform_train_batched_seconds": 6.02922590000162,
+    "transform_test_batched_seconds": 5.968140000000858
+  },
+  "AsphaltRegularityUniEq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\AsphaltRegularityUni_eq\\AsphaltRegularityUni_eq_TRAIN.ts": "20dc054c97171ef082dcb4cc7df56fdb668626e826aa692ba6424d0d9a7b7c02",
+        "data_extra\\new_datasets\\AsphaltRegularityUni_eq\\AsphaltRegularityUni_eq_TEST.ts": "2c2e079e3351b2a5a241344bccc72134745779d0d9eb6bd2ef1049da782f9812"
+      }
+    },
+    "n_train": 751,
+    "n_test": 751,
+    "length": 4201,
+    "n_features": 37036,
+    "n_classes": 2,
+    "classes": [
+      "deteriorated",
+      "regular"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 18.325266299998475,
+    "transform_train_batched_seconds": 8.328439299999445,
+    "transform_test_batched_seconds": 8.248511800000415
+  },
+  "Beef": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Beef\\Beef_TRAIN.ts": "ba418361b1b3d28f4c3ec971546294678bece32ce985421df2ca7d2559914c59",
+        "data\\Beef\\Beef_TEST.ts": "691597afc2a930c81ba2d011e0632e758ec64fbe3edb51000135ddc220ffca19"
+      }
+    },
+    "n_train": 30,
+    "n_test": 30,
+    "length": 470,
+    "n_features": 4313,
+    "n_classes": 5,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.1025112999996054,
+    "transform_train_batched_seconds": 0.051449999999931606,
+    "transform_test_batched_seconds": 0.04381299999931798
+  },
+  "BeetleFly": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\BeetleFly\\BeetleFly_TRAIN.ts": "34e14cf69d4a1967739405286e81c16079a36705fa7725e564e905d2c2076605",
+        "data\\BeetleFly\\BeetleFly_TEST.ts": "e369ae6262b15bfa86d9304a0fe64aa05826a147453044d9787130ebe8b125d9"
+      }
+    },
+    "n_train": 20,
+    "n_test": 20,
+    "length": 512,
+    "n_features": 4500,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.09450509999987844,
+    "transform_train_batched_seconds": 0.051115199999912875,
+    "transform_test_batched_seconds": 0.038346599999385944
+  },
+  "BirdChicken": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\BirdChicken\\BirdChicken_TRAIN.ts": "5c9f53b3c5109610d2bba5cc94d5e4295e21f68f9edf1cc19d53271284306631",
+        "data\\BirdChicken\\BirdChicken_TEST.ts": "bdc0d8d75cd916776ccd8532035a56c42af42883a342a0c7da86c914a9f682ba"
+      }
+    },
+    "n_train": 20,
+    "n_test": 20,
+    "length": 512,
+    "n_features": 4500,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.09397900000021764,
+    "transform_train_batched_seconds": 0.04778919999989739,
+    "transform_test_batched_seconds": 0.04059419999975944
+  },
+  "BME": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\BME\\BME_TRAIN.ts": "880b330eb5d43ffe640bcdace970b8a910ba355c811198928e82294f615ccf3a",
+        "data\\BME\\BME_TEST.ts": "4360ab4f4e797f1e5960c1895bdb5b49a0c7c0f6bbb96b0ac5ad28ff937ab6c0"
+      }
+    },
+    "n_train": 30,
+    "n_test": 150,
+    "length": 128,
+    "n_features": 1160,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.13876690000051894,
+    "transform_train_batched_seconds": 0.03518640000038431,
+    "transform_test_batched_seconds": 0.09000110000033601
+  },
+  "Car": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Car\\Car_TRAIN.ts": "b30e4084b0aef0db714447671baed25798b33e84fab78c7021de546d02472fed",
+        "data\\Car\\Car_TEST.ts": "7ed7fe3b6732e842d03870b143a332b43afabf2592fc181d32b4f554d3efc71e"
+      }
+    },
+    "n_train": 60,
+    "n_test": 60,
+    "length": 577,
+    "n_features": 5222,
+    "n_classes": 4,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.1859812000002421,
+    "transform_train_batched_seconds": 0.09111870000015188,
+    "transform_test_batched_seconds": 0.08239210000010644
+  },
+  "CBF": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\CBF\\CBF_TRAIN.ts": "f42c88fbf949bf7dec0e8df7325724623301a22d4190c7c035fd5b025e5b71fd",
+        "data\\CBF\\CBF_TEST.ts": "88b1fdd0dcf9c5e6d8cad5557a164aab6bf239c3facb6dd902152e235f1db9dc"
+      }
+    },
+    "n_train": 30,
+    "n_test": 900,
+    "length": 128,
+    "n_features": 1160,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.5347093999998833,
+    "transform_train_batched_seconds": 0.037190799999734736,
+    "transform_test_batched_seconds": 0.4671010000001843
+  },
+  "Chinatown": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Chinatown\\Chinatown_TRAIN.ts": "18f9ba2c5bfe16c6288432245d61a7c9b8347eaee63c1d7a64580afe8ad952f7",
+        "data\\Chinatown\\Chinatown_TEST.ts": "a41c6f3aba534115daf473ea3285dc8b89b323ee2148ad2c7dae326416630cd0"
+      }
+    },
+    "n_train": 20,
+    "n_test": 343,
+    "length": 24,
+    "n_features": 212,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.06132759999945847,
+    "transform_train_batched_seconds": 0.014498700000331155,
+    "transform_test_batched_seconds": 0.04110119999950257
+  },
+  "ChlorineConcentration": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ChlorineConcentration\\ChlorineConcentration_TRAIN.ts": "28403183d6bca36acc99fea6c1aef022f80c7dfa449938e6591789c71cef6d2a",
+        "data\\ChlorineConcentration\\ChlorineConcentration_TEST.ts": "33c9a34a87193a4e666af59c7c6d231b7ad64a8fbc885a0d775008060bd40217"
+      }
+    },
+    "n_train": 467,
+    "n_test": 3840,
+    "length": 166,
+    "n_features": 1720,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 2.754710499999419,
+    "transform_train_batched_seconds": 0.30862579999939044,
+    "transform_test_batched_seconds": 2.302628299999924
+  },
+  "CinCECGTorso": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\CinCECGTorso\\CinCECGTorso_TRAIN.ts": "600f9b150baeddb21a4e2db2a51ba2166839377d94fde819ee46f82ab4ccbd2a",
+        "data\\CinCECGTorso\\CinCECGTorso_TEST.ts": "36cb8968a7a8f8be5d76118ac911e32ac6e40202a8388db0c151d4269ed4bd31"
+      }
+    },
+    "n_train": 40,
+    "n_test": 1380,
+    "length": 1639,
+    "n_features": 14553,
+    "n_classes": 4,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 9.650042199999916,
+    "transform_train_batched_seconds": 0.16286749999926542,
+    "transform_test_batched_seconds": 9.100749799999903
+  },
+  "Coffee": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Coffee\\Coffee_TRAIN.ts": "8895cbfd605adfa65b155b9ff81beb81c238ca4151abd4e964538c9c5fedc1ec",
+        "data\\Coffee\\Coffee_TEST.ts": "914a553a055b913859a4e0d80aa7fb080166b33e06cdbcb4f1e5ed80f10417e6"
+      }
+    },
+    "n_train": 28,
+    "n_test": 28,
+    "length": 286,
+    "n_features": 2751,
+    "n_classes": 2,
+    "classes": [
+      "0",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.1312318000000232,
+    "transform_train_batched_seconds": 0.08772440000029746,
+    "transform_test_batched_seconds": 0.036299700000199664
+  },
+  "Colposcopy": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\Colposcopy\\Colposcopy_TRAIN.ts": "2a7ea6de4c3aaf046c8d7fdef8e16e5e2e1a87bf339d69ccf2ef0c9e9e676323",
+        "data_extra\\new_datasets\\Colposcopy\\Colposcopy_TEST.ts": "8b59ff02a308f9d6157939af2e4f76efd61601adf0c6f00f8120e35046e8089a"
+      }
+    },
+    "n_train": 99,
+    "n_test": 101,
+    "length": 180,
+    "n_features": 1786,
+    "n_classes": 6,
+    "classes": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.20681970000077854,
+    "transform_train_batched_seconds": 0.10479540000051202,
+    "transform_test_batched_seconds": 0.08603010000115319
+  },
+  "Computers": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Computers\\Computers_TRAIN.ts": "635262b3728d4f35a385376993c980aa5b3086440916be883f1af4cc57580cba",
+        "data\\Computers\\Computers_TEST.ts": "967c52c10cc1136ac2a649a68b765525d78302f45dd423f93dd984caeb108641"
+      }
+    },
+    "n_train": 250,
+    "n_test": 250,
+    "length": 720,
+    "n_features": 6517,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.3887377000000924,
+    "transform_train_batched_seconds": 0.6343910000005053,
+    "transform_test_batched_seconds": 0.6289817999995648
+  },
+  "Covid3MonthDiscrete": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\Covid3Month_disc\\Covid3Month_disc_TRAIN.ts": "a85be0ad4fb62d3b4e8081fcd17db2074917bc8a86c5679b17e234f54747bd5b",
+        "data_extra\\new_datasets\\Covid3Month_disc\\Covid3Month_disc_TEST.ts": "15be30a16c1acf23e11f035aaefd8a30f145258f318f8218e1730a652f3b5fe6"
+      }
+    },
+    "n_train": 140,
+    "n_test": 61,
+    "length": 84,
+    "n_features": 935,
+    "n_classes": 3,
+    "classes": [
+      "0.0",
+      "1.0",
+      "2.0"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.1447850999993534,
+    "transform_train_batched_seconds": 0.10182589999931224,
+    "transform_test_batched_seconds": 0.030133299998851726
+  },
+  "CricketX": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\CricketX\\CricketX_TRAIN.ts": "e5b170e5c591b90e982fa3292344f26bfa40f5ff2d785af3e02582b0b6d87eb7",
+        "data\\CricketX\\CricketX_TEST.ts": "27de3f355366ce93cb36c2c3a64eabe94011e94011e261403040d8751db6063b"
+      }
+    },
+    "n_train": 390,
+    "n_test": 390,
+    "length": 300,
+    "n_features": 2889,
+    "n_classes": 12,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.895363799999359,
+    "transform_train_batched_seconds": 0.8709316000004037,
+    "transform_test_batched_seconds": 0.9231565999998566
+  },
+  "CricketY": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\CricketY\\CricketY_TRAIN.ts": "efa7681b194584af67899f39958d2a988d73142b58368781978fffdf07d9b23c",
+        "data\\CricketY\\CricketY_TEST.ts": "cfc5a9aa59d24d204976e6cb81dccada41bdf1a129c675f772a12b3f1b957515"
+      }
+    },
+    "n_train": 390,
+    "n_test": 390,
+    "length": 300,
+    "n_features": 2889,
+    "n_classes": 12,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.8791139000004478,
+    "transform_train_batched_seconds": 0.9355813000001945,
+    "transform_test_batched_seconds": 0.8693747000006624
+  },
+  "CricketZ": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\CricketZ\\CricketZ_TRAIN.ts": "1293318cb5303864b5d903ac09ac4c69be83286c0e5020754c80a0c497c4adb8",
+        "data\\CricketZ\\CricketZ_TEST.ts": "b389374704baa84062f4f3c0f135aac6033fabbdf4abea00f87d4bdcf4750cf0"
+      }
+    },
+    "n_train": 390,
+    "n_test": 390,
+    "length": 300,
+    "n_features": 2889,
+    "n_classes": 12,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.942550000000665,
+    "transform_train_batched_seconds": 0.9201502999994773,
+    "transform_test_batched_seconds": 0.9230504999995901
+  },
+  "Crop": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Crop\\Crop_TRAIN.ts": "6db34e8eaf041249d0ba701c970b67c27888bd61c11acea6518adbfaf57216d3",
+        "data\\Crop\\Crop_TEST.ts": "d7c54f86579cbae520c1707fd2444572432ef0e06c49ccb8ce9b6f5ab5f3856a"
+      }
+    },
+    "n_train": 7200,
+    "n_test": 16800,
+    "length": 46,
+    "n_features": 491,
+    "n_classes": 24,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 8.671104000000014,
+    "transform_train_batched_seconds": 3.9298155000005863,
+    "transform_test_batched_seconds": 4.128910699999324
+  },
+  "DiatomSizeReduction": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\DiatomSizeReduction\\DiatomSizeReduction_TRAIN.ts": "0ad5121049461c8a2d7877b1602a5abb50407ce385255d5eface5a2c90fa12d0",
+        "data\\DiatomSizeReduction\\DiatomSizeReduction_TEST.ts": "b9da751adebb892fb6506cb47e1e89d5d1b0706bb8f4703b6f8a7d29890e9c97"
+      }
+    },
+    "n_train": 16,
+    "n_test": 306,
+    "length": 345,
+    "n_features": 3225,
+    "n_classes": 4,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.33075840000037715,
+    "transform_train_batched_seconds": 0.04579349999949045,
+    "transform_test_batched_seconds": 0.2655408999999054
+  },
+  "DistalPhalanxOutlineAgeGroup": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\DistalPhalanxOutlineAgeGroup\\DistalPhalanxOutlineAgeGroup_TRAIN.ts": "4d085611080a5cd36f6402662180ec43008a67b5fefc86aaae414dc04ad5a251",
+        "data\\DistalPhalanxOutlineAgeGroup\\DistalPhalanxOutlineAgeGroup_TEST.ts": "979099688e16ba0613b8fa0eea1e5ce2f51e897c314a0e7920c22a9455001268"
+      }
+    },
+    "n_train": 400,
+    "n_test": 139,
+    "length": 80,
+    "n_features": 900,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.28519869999945513,
+    "transform_train_batched_seconds": 0.19137439999940398,
+    "transform_test_batched_seconds": 0.07593779999933759
+  },
+  "DistalPhalanxOutlineCorrect": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\DistalPhalanxOutlineCorrect\\DistalPhalanxOutlineCorrect_TRAIN.ts": "fb5b488b8a2d651ed208a64756ceaf20249d877857a852a3efb428f33c14532a",
+        "data\\DistalPhalanxOutlineCorrect\\DistalPhalanxOutlineCorrect_TEST.ts": "d8b41efbffdc673017befed2a2538f286c906eb3ca7e9edc08993bf3da8165f4"
+      }
+    },
+    "n_train": 600,
+    "n_test": 276,
+    "length": 80,
+    "n_features": 900,
+    "n_classes": 2,
+    "classes": [
+      "0",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.4542120000005525,
+    "transform_train_batched_seconds": 0.2917682000006607,
+    "transform_test_batched_seconds": 0.14560709999932442
+  },
+  "DistalPhalanxTW": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\DistalPhalanxTW\\DistalPhalanxTW_TRAIN.ts": "da39d9cb8f1d9b4a86a4958633d0d6bbfd32eef109ddf2a63748cbe5c44b7337",
+        "data\\DistalPhalanxTW\\DistalPhalanxTW_TEST.ts": "328d90f97bc1da79241a7a46824157f1673135aab6b0925a736ba12c4b4aab87"
+      }
+    },
+    "n_train": 400,
+    "n_test": 139,
+    "length": 80,
+    "n_features": 900,
+    "n_classes": 6,
+    "classes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.3563446999996813,
+    "transform_train_batched_seconds": 0.22213939999983268,
+    "transform_test_batched_seconds": 0.11570449999999255
+  },
+  "DodgerLoopDayNmv": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\DodgerLoopDay_nmv\\DodgerLoopDay_nmv_TRAIN.ts": "74e9fd53996a8cd8704a0ffd9126fa651fb7bf43bdd68ace6171f42f4a300250",
+        "data_extra\\new_datasets\\DodgerLoopDay_nmv\\DodgerLoopDay_nmv_TEST.ts": "aa4f10c3c8d093b382433085bd41d419c079d44e7809ba45fd6f7cae6012befd"
+      }
+    },
+    "n_train": 67,
+    "n_test": 77,
+    "length": 288,
+    "n_features": 2769,
+    "n_classes": 7,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.2045020999994449,
+    "transform_train_batched_seconds": 0.1023920999996335,
+    "transform_test_batched_seconds": 0.08543300000019372
+  },
+  "DodgerLoopGameNmv": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\DodgerLoopGame_nmv\\DodgerLoopGame_nmv_TRAIN.ts": "ce3af6a7453d7e386d0881d7b15a0441c3d1236cf9d6d50b85dc97ddda30745a",
+        "data_extra\\new_datasets\\DodgerLoopGame_nmv\\DodgerLoopGame_nmv_TEST.ts": "7dc3616d5f2b26d28804d75050440cdf928641c4cd2ffd99510cf1e5f19eec18"
+      }
+    },
+    "n_train": 17,
+    "n_test": 127,
+    "length": 288,
+    "n_features": 2769,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.1636422000010498,
+    "transform_train_batched_seconds": 0.03792799999973795,
+    "transform_test_batched_seconds": 0.10955579999972542
+  },
+  "DodgerLoopWeekendNmv": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\DodgerLoopWeekend_nmv\\DodgerLoopWeekend_nmv_TRAIN.ts": "93ce0134df6ae2a8058c9d5a5b4b9cd460d929fedffa317b3b84ce8fa9582695",
+        "data_extra\\new_datasets\\DodgerLoopWeekend_nmv\\DodgerLoopWeekend_nmv_TEST.ts": "8fdf4688cb1346623cfea4aa1dd12153dee7cb97043057818267c8cdde704c06"
+      }
+    },
+    "n_train": 18,
+    "n_test": 126,
+    "length": 288,
+    "n_features": 2769,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.1589112000001478,
+    "transform_train_batched_seconds": 0.03897529999994731,
+    "transform_test_batched_seconds": 0.1042728000011266
+  },
+  "Earthquakes": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Earthquakes\\Earthquakes_TRAIN.ts": "87ba4d664dceced7cf7aa55e6d98ab5e6306fd53d578a4366823f71884bc8cb9",
+        "data\\Earthquakes\\Earthquakes_TEST.ts": "0a474de00135797087448af3b9f212f80282a15bce676d591d078a5deed704ca"
+      }
+    },
+    "n_train": 322,
+    "n_test": 139,
+    "length": 512,
+    "n_features": 4500,
+    "n_classes": 2,
+    "classes": [
+      "0",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.5505441000004794,
+    "transform_train_batched_seconds": 0.3556701999996221,
+    "transform_test_batched_seconds": 0.1475123000000167
+  },
+  "ECG200": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ECG200\\ECG200_TRAIN.ts": "6b855dbcbae2d968937c2416d22bdc2dc74be90d5ce6345f56950fa7e754b3fe",
+        "data\\ECG200\\ECG200_TEST.ts": "526d18e133ea51ac13dc528fa2bb13f63b4f93473bc329f0fb8a03d4ec92c235"
+      }
+    },
+    "n_train": 100,
+    "n_test": 100,
+    "length": 96,
+    "n_features": 994,
+    "n_classes": 2,
+    "classes": [
+      "-1",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.1681287000001248,
+    "transform_train_batched_seconds": 0.0805620999999519,
+    "transform_test_batched_seconds": 0.07360120000066672
+  },
+  "ECG5000": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ECG5000\\ECG5000_TRAIN.ts": "1935be5cc08203aa7c0de288fbceb48997d475f43ee610fa373fd6f4a0d66775",
+        "data\\ECG5000\\ECG5000_TEST.ts": "2343d4f750e3b2b4b0f470d985afadc590dbc69695597db6bb4888ef01c015ce"
+      }
+    },
+    "n_train": 500,
+    "n_test": 4500,
+    "length": 140,
+    "n_features": 1412,
+    "n_classes": 5,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 2.9459257999997135,
+    "transform_train_batched_seconds": 0.30355539999982284,
+    "transform_test_batched_seconds": 2.5001688000002105
+  },
+  "ECGFiveDays": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ECGFiveDays\\ECGFiveDays_TRAIN.ts": "8e480605d6308ede53bf1f80694ec36f2b36e34ffc44e2090f5c182f44417d0f",
+        "data\\ECGFiveDays\\ECGFiveDays_TEST.ts": "8740d881e1992ba27e84848cac5aab2d68f5c41595a51895e4a7e25257cf07e7"
+      }
+    },
+    "n_train": 23,
+    "n_test": 861,
+    "length": 136,
+    "n_features": 1338,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.5466893000002528,
+    "transform_train_batched_seconds": 0.039192799999909766,
+    "transform_test_batched_seconds": 0.4758608000001914
+  },
+  "ElectricDeviceDetection": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\ElectricDeviceDetection\\ElectricDeviceDetection_TRAIN.ts": "5f1e3e00d94f1b5f291c26b3c2e8c6d70d1feafbfff4c7400f66e6c9a26655cb",
+        "data_extra\\new_datasets\\ElectricDeviceDetection\\ElectricDeviceDetection_TEST.ts": "74c6bcec290a57ea6be888acf1820b751f48e7bf264f1e792ac0c4c6835ad6a8"
+      }
+    },
+    "n_train": 624,
+    "n_test": 3768,
+    "length": 256,
+    "n_features": 2253,
+    "n_classes": 2,
+    "classes": [
+      "0",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 2.914830100000472,
+    "transform_train_batched_seconds": 0.42872259999967355,
+    "transform_test_batched_seconds": 2.3028538999988086
+  },
+  "ElectricDevices": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ElectricDevices\\ElectricDevices_TRAIN.ts": "7d8d66d8b12c9787158a7ca1968fb80f7a2db257b63467d6f1207cd20c2623bc",
+        "data\\ElectricDevices\\ElectricDevices_TEST.ts": "c4d30f5b63cdc4c01757922e2f75428eaf2f4a49fe968ab49b3cc1a5d95e079f"
+      }
+    },
+    "n_train": 8926,
+    "n_test": 7711,
+    "length": 96,
+    "n_features": 994,
+    "n_classes": 7,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 7.912598300000354,
+    "transform_train_batched_seconds": 4.107214399999975,
+    "transform_test_batched_seconds": 3.4722310000006473
+  },
+  "EOGHorizontalSignal": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\EOGHorizontalSignal\\EOGHorizontalSignal_TRAIN.ts": "3fae6dea579b7601aef01ce2440b43db13f8da1a2838a6027600d85bc68e3bcc",
+        "data\\EOGHorizontalSignal\\EOGHorizontalSignal_TEST.ts": "641210f50061304029959d7e7c98c87f9aa60f4379b70d2fa4eab2d58829d8d3"
+      }
+    },
+    "n_train": 362,
+    "n_test": 362,
+    "length": 1250,
+    "n_features": 11092,
+    "n_classes": 12,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 2.0438272000001234,
+    "transform_train_batched_seconds": 0.9460405999998329,
+    "transform_test_batched_seconds": 0.9492898999997124
+  },
+  "EOGVerticalSignal": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\EOGVerticalSignal\\EOGVerticalSignal_TRAIN.ts": "924dfbd933339617ce5fe9f068cbf827f3ab682476d27bc1275ede8557caacbd",
+        "data\\EOGVerticalSignal\\EOGVerticalSignal_TEST.ts": "d938afd28ad790aad1258e43f21c8bb41256537bf53c4ed6ce166723a4ceda07"
+      }
+    },
+    "n_train": 362,
+    "n_test": 362,
+    "length": 1250,
+    "n_features": 11092,
+    "n_classes": 12,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 2.036228299999493,
+    "transform_train_batched_seconds": 0.9501764000006006,
+    "transform_test_batched_seconds": 0.946185300000252
+  },
+  "EthanolLevel": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\EthanolLevel\\EthanolLevel_TRAIN.ts": "14434896ad4626ca2d13b344da9585787692d84236fa65e65a82fc201fa5f9ab",
+        "data\\EthanolLevel\\EthanolLevel_TEST.ts": "6173ff098f9bcccf50b754c3f22258e48b7863722653100c2b1f9ad36affe17e"
+      }
+    },
+    "n_train": 504,
+    "n_test": 500,
+    "length": 1751,
+    "n_features": 15549,
+    "n_classes": 4,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 4.708883799999967,
+    "transform_train_batched_seconds": 2.5841783000005307,
+    "transform_test_batched_seconds": 1.8170546000001195
+  },
+  "FaceAll": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\FaceAll\\FaceAll_TRAIN.ts": "3b38b6df2fa821e20020ddfa0d545c6b4cb8adee0a2ca6ec9c674c75461c738d",
+        "data\\FaceAll\\FaceAll_TEST.ts": "894e16ba03e05f19410a3c0cd9cfa429137be09d3eb7779ee35b25e5df1db71e"
+      }
+    },
+    "n_train": 560,
+    "n_test": 1690,
+    "length": 131,
+    "n_features": 1214,
+    "n_classes": 14,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.2659147999993365,
+    "transform_train_batched_seconds": 0.31234219999987545,
+    "transform_test_batched_seconds": 0.8873462999999902
+  },
+  "FaceFour": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\FaceFour\\FaceFour_TRAIN.ts": "5f02a142d03bdc1482819c39f96c100af981d406d62be2a9a208d11060aa59fd",
+        "data\\FaceFour\\FaceFour_TEST.ts": "1626e83a59757dbf318ee91d4263f0b966886b0641e7c337caa01293c4258939"
+      }
+    },
+    "n_train": 24,
+    "n_test": 88,
+    "length": 350,
+    "n_features": 3237,
+    "n_classes": 4,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.16423779999968247,
+    "transform_train_batched_seconds": 0.0506905000002007,
+    "transform_test_batched_seconds": 0.0957935999995243
+  },
+  "FacesUCR": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\FacesUCR\\FacesUCR_TRAIN.ts": "dda6897df22db05960b00a5147f53346774848bf86ccb4d918fde201eab7ad0f",
+        "data\\FacesUCR\\FacesUCR_TEST.ts": "042b5c265c2c88686abe7b544eb78888ba5ebfd787dc21d6368080dd0883456d"
+      }
+    },
+    "n_train": 200,
+    "n_test": 2050,
+    "length": 131,
+    "n_features": 1214,
+    "n_classes": 14,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.448196100000132,
+    "transform_train_batched_seconds": 0.1549896999995326,
+    "transform_test_batched_seconds": 1.2229371999992509
+  },
+  "FiftyWords": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\FiftyWords\\FiftyWords_TRAIN.ts": "28677333d91c4be288cc92289b33b6aff181a816a357a9ad4ce1036db97fab00",
+        "data\\FiftyWords\\FiftyWords_TEST.ts": "18b887adc98d1263f7bab0646b5c865ee10697373004f20a1ef0794ff658de11"
+      }
+    },
+    "n_train": 450,
+    "n_test": 455,
+    "length": 270,
+    "n_features": 2549,
+    "n_classes": 50,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "4",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "5",
+      "50",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.8385449000006702,
+    "transform_train_batched_seconds": 0.39157969999996567,
+    "transform_test_batched_seconds": 0.3705746999994517
+  },
+  "Fish": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Fish\\Fish_TRAIN.ts": "ced920d72a6767bf21f0863b65e2be6a09328d0a227b5d8deabb8d34e55e1a75",
+        "data\\Fish\\Fish_TEST.ts": "9d9f5d0c95238047acc4757e2086b15a1551f81c37e73d294997216c23bf0d02"
+      }
+    },
+    "n_train": 175,
+    "n_test": 175,
+    "length": 463,
+    "n_features": 4262,
+    "n_classes": 7,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.4355622000002768,
+    "transform_train_batched_seconds": 0.20353660000000673,
+    "transform_test_batched_seconds": 0.19496199999957753
+  },
+  "FloodModeling1Discrete": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\FloodModeling1_disc\\FloodModeling1_disc_TRAIN.ts": "0cb754c2ccb77853a4364c373fdeec69e23d3001e2493d85c857edfa44f399b1",
+        "data_extra\\new_datasets\\FloodModeling1_disc\\FloodModeling1_disc_TEST.ts": "27262f99d62cee35d025d84c667385c853bb4686d509a0c67a783606ac9674dd"
+      }
+    },
+    "n_train": 471,
+    "n_test": 202,
+    "length": 266,
+    "n_features": 2481,
+    "n_classes": 2,
+    "classes": [
+      "0.0",
+      "1.0"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.4769219000008889,
+    "transform_train_batched_seconds": 0.9627492999989045,
+    "transform_test_batched_seconds": 0.4424464999992779
+  },
+  "FloodModeling2Discrete": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\FloodModeling2_disc\\FloodModeling2_disc_TRAIN.ts": "b067188020fab938bc5a57027fd45b29cac74d69a9520497903ca397b647df32",
+        "data_extra\\new_datasets\\FloodModeling2_disc\\FloodModeling2_disc_TEST.ts": "9f22486e848918a91fba16b3fff400d046fff8e6ae887d6f0594dc134160c3ea"
+      }
+    },
+    "n_train": 466,
+    "n_test": 201,
+    "length": 266,
+    "n_features": 2481,
+    "n_classes": 2,
+    "classes": [
+      "0.0",
+      "1.0"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.4733951000016532,
+    "transform_train_batched_seconds": 0.9590755999997782,
+    "transform_test_batched_seconds": 0.4461536000017077
+  },
+  "FloodModeling3Discrete": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\FloodModeling3_disc\\FloodModeling3_disc_TRAIN.ts": "f97844fe9b65df9c56b640013e4eae974682baf5820fa48a5f7b86727baf57c1",
+        "data_extra\\new_datasets\\FloodModeling3_disc\\FloodModeling3_disc_TEST.ts": "fd3eac2952e43914dfeecf3a7f976d95e3e50a6856ac532a297eacdca21f69c0"
+      }
+    },
+    "n_train": 429,
+    "n_test": 184,
+    "length": 266,
+    "n_features": 2481,
+    "n_classes": 2,
+    "classes": [
+      "0.0",
+      "1.0"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.3409654999995837,
+    "transform_train_batched_seconds": 0.9020963000002666,
+    "transform_test_batched_seconds": 0.35154139999940526
+  },
+  "FordA": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\FordA\\FordA_TRAIN.ts": "f7693d8982d4088613d053e9205121867cb380ad2d0684100c06fad9b6459f5c",
+        "data\\FordA\\FordA_TEST.ts": "7b63a092ed190cb9a056941377d315cc7c806aad585426a0c04dacec01ecfc71"
+      }
+    },
+    "n_train": 3601,
+    "n_test": 1320,
+    "length": 500,
+    "n_features": 4469,
+    "n_classes": 2,
+    "classes": [
+      "-1",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 6.271690500000659,
+    "transform_train_batched_seconds": 4.192078500000207,
+    "transform_test_batched_seconds": 1.639006700000209
+  },
+  "FordB": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\FordB\\FordB_TRAIN.ts": "aa934926816906ca42cd3fd2e82f824f2a94963e9a25bcb4742ab828f634f8c3",
+        "data\\FordB\\FordB_TEST.ts": "38f3797b4920110f40caf6a937aef529e4ae781e244511290d52ef45b31e1a7f"
+      }
+    },
+    "n_train": 3636,
+    "n_test": 810,
+    "length": 500,
+    "n_features": 4469,
+    "n_classes": 2,
+    "classes": [
+      "-1",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 5.867216499999813,
+    "transform_train_batched_seconds": 4.525877300000502,
+    "transform_test_batched_seconds": 0.9509221999996953
+  },
+  "FreezerRegularTrain": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\FreezerRegularTrain\\FreezerRegularTrain_TRAIN.ts": "42343d60c99eb819e81f8265d734fe67e4cb578610eeb91583626de9c6621b8a",
+        "data\\FreezerRegularTrain\\FreezerRegularTrain_TEST.ts": "4f2fbc0467f7a812229f88680ae2e070d73147bbce4f676fb3d2e1ff4085d4cb"
+      }
+    },
+    "n_train": 150,
+    "n_test": 2850,
+    "length": 301,
+    "n_features": 2890,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 3.9822046999997838,
+    "transform_train_batched_seconds": 0.17056090000005497,
+    "transform_test_batched_seconds": 3.640682000000197
+  },
+  "FreezerSmallTrain": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\FreezerSmallTrain\\FreezerSmallTrain_TRAIN.ts": "d917141965e8ee8ceddccd26d421ac2a17d3f788abbe92e6840cb6bf3534b54a",
+        "data\\FreezerSmallTrain\\FreezerSmallTrain_TEST.ts": "a0154263dbe273714c0e67ad0b1c535ecc23631ff205369750da0039a6013f75"
+      }
+    },
+    "n_train": 28,
+    "n_test": 2850,
+    "length": 301,
+    "n_features": 2890,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 2.7115395999999237,
+    "transform_train_batched_seconds": 0.05563540000002831,
+    "transform_test_batched_seconds": 2.497517400000106
+  },
+  "GestureMidAirD1Eq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\GestureMidAirD1_eq\\GestureMidAirD1_eq_TRAIN.ts": "94960aee0367d603db723a5848298c0870a2801a354a6b558d690fc95258c3b7",
+        "data_extra\\new_datasets\\GestureMidAirD1_eq\\GestureMidAirD1_eq_TEST.ts": "3aff166de59b04b29fccb047386253c7beced01ab91275f16e9d1a61ba5719fc"
+      }
+    },
+    "n_train": 208,
+    "n_test": 130,
+    "length": 360,
+    "n_features": 3325,
+    "n_classes": 26,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.0129581999990478,
+    "transform_train_batched_seconds": 0.5476206999992428,
+    "transform_test_batched_seconds": 0.3924000999995769
+  },
+  "GestureMidAirD2Eq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\GestureMidAirD2_eq\\GestureMidAirD2_eq_TRAIN.ts": "2ddb6912e0a3190aa0bd578f8c586d9ec60f4da865adad54520b61983c5fe566",
+        "data_extra\\new_datasets\\GestureMidAirD2_eq\\GestureMidAirD2_eq_TEST.ts": "3f591e2401bd46f5a2637a786e58f7020d9152016e813e255d9129dc51a8dd63"
+      }
+    },
+    "n_train": 208,
+    "n_test": 130,
+    "length": 360,
+    "n_features": 3325,
+    "n_classes": 26,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.0848620999986451,
+    "transform_train_batched_seconds": 0.6092766999991,
+    "transform_test_batched_seconds": 0.39977230000113195
+  },
+  "GestureMidAirD3Eq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\GestureMidAirD3_eq\\GestureMidAirD3_eq_TRAIN.ts": "5b488472d3bc80f3e5a16e48a288ed4b06ed8b792d72a5139d11cebc980f0ce4",
+        "data_extra\\new_datasets\\GestureMidAirD3_eq\\GestureMidAirD3_eq_TEST.ts": "5bd3c0ae58b1308f1245620098b9e2685447c413a0888c0a2a921320b83009d6"
+      }
+    },
+    "n_train": 208,
+    "n_test": 130,
+    "length": 360,
+    "n_features": 3325,
+    "n_classes": 26,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.9764568000009604,
+    "transform_train_batched_seconds": 0.5418614999998681,
+    "transform_test_batched_seconds": 0.37587560000065423
+  },
+  "GesturePebbleZ1Eq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\GesturePebbleZ1_eq\\GesturePebbleZ1_eq_TRAIN.ts": "47c061ad27fd62179ca526eac0ad6f4932542275c9f859dfe7b4d7e89e959e5a",
+        "data_extra\\new_datasets\\GesturePebbleZ1_eq\\GesturePebbleZ1_eq_TEST.ts": "196980515e3fb98ba3a31c45daf8e93a3ed821dba981a4ae4e6d4a48ead74f66"
+      }
+    },
+    "n_train": 132,
+    "n_test": 172,
+    "length": 455,
+    "n_features": 4178,
+    "n_classes": 6,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.00682389999929,
+    "transform_train_batched_seconds": 0.4475274000014906,
+    "transform_test_batched_seconds": 0.47889070000019274
+  },
+  "GesturePebbleZ2Eq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\GesturePebbleZ2_eq\\GesturePebbleZ2_eq_TRAIN.ts": "4e16cfd2f00895f695d934a7b201930d900d3dbbb6f92a1f6e8b2aaa67885d81",
+        "data_extra\\new_datasets\\GesturePebbleZ2_eq\\GesturePebbleZ2_eq_TEST.ts": "af8b4e6ccc4da794dacccb31ced308c88290cfc1cc25a6aa7b81bdab0b31566a"
+      }
+    },
+    "n_train": 146,
+    "n_test": 158,
+    "length": 455,
+    "n_features": 4178,
+    "n_classes": 6,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.9608631999999488,
+    "transform_train_batched_seconds": 0.4454425000003539,
+    "transform_test_batched_seconds": 0.4750965000002907
+  },
+  "GunPoint": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\GunPoint\\GunPoint_TRAIN.ts": "f842401779fd9800d247d8b33121a1a4643710a19b24917dbdd9a060ca8630d5",
+        "data\\GunPoint\\GunPoint_TEST.ts": "79332750788a6227b325b96bd0d70130c8eb707b9731f8d7dec62b7a7d36017e"
+      }
+    },
+    "n_train": 50,
+    "n_test": 150,
+    "length": 150,
+    "n_features": 1556,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.15672369999992952,
+    "transform_train_batched_seconds": 0.04328200000054494,
+    "transform_test_batched_seconds": 0.09794620000047871
+  },
+  "GunPointAgeSpan": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\GunPointAgeSpan\\GunPointAgeSpan_TRAIN.ts": "a45e3cb2ec03134c7c57e5cf7c3506926ec2cac1a6bfbe8994aa92717027a9cc",
+        "data\\GunPointAgeSpan\\GunPointAgeSpan_TEST.ts": "7655d2928ac3776cdbbb6e0517f269462c747f2b7c4694adcb5d9afc270c0421"
+      }
+    },
+    "n_train": 135,
+    "n_test": 316,
+    "length": 150,
+    "n_features": 1556,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.3163686999996571,
+    "transform_train_batched_seconds": 0.10982549999971525,
+    "transform_test_batched_seconds": 0.19235920000028273
+  },
+  "GunPointMaleVersusFemale": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\GunPointMaleVersusFemale\\GunPointMaleVersusFemale_TRAIN.ts": "8a9ae2d097cb8fd2488de46ab632eed2b85692f63bb19c1fc4aefd620bdcb3f9",
+        "data\\GunPointMaleVersusFemale\\GunPointMaleVersusFemale_TEST.ts": "c61f3eda5118d4639694fc4f01071fd1d2f3d2bd4ec4506288a1f5e229e073dc"
+      }
+    },
+    "n_train": 135,
+    "n_test": 316,
+    "length": 150,
+    "n_features": 1556,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.32416119999925286,
+    "transform_train_batched_seconds": 0.1085945000004358,
+    "transform_test_batched_seconds": 0.20076169999993
+  },
+  "GunPointOldVersusYoung": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\GunPointOldVersusYoung\\GunPointOldVersusYoung_TRAIN.ts": "7237e339b871b5acec89f801656d6389b5282105e68d70eea34dd676ab960e76",
+        "data\\GunPointOldVersusYoung\\GunPointOldVersusYoung_TEST.ts": "80204b8d59c48b1e8a5990095d03c27af25f23e8e470579467e10625862bfd9c"
+      }
+    },
+    "n_train": 136,
+    "n_test": 315,
+    "length": 150,
+    "n_features": 1556,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.32223719999910827,
+    "transform_train_batched_seconds": 0.1032482999999047,
+    "transform_test_batched_seconds": 0.20611280000048282
+  },
+  "Ham": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Ham\\Ham_TRAIN.ts": "65aa90184caf3b0bf7bed78c17f8aa3b184fba0d3e94f0dba979ff364ee407fc",
+        "data\\Ham\\Ham_TEST.ts": "9417a9349212d222650361592fa082a8a0cc34a5032bad516176fe85dc585c17"
+      }
+    },
+    "n_train": 109,
+    "n_test": 105,
+    "length": 431,
+    "n_features": 4002,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.27564669999992475,
+    "transform_train_batched_seconds": 0.13561419999950886,
+    "transform_test_batched_seconds": 0.12168360000032408
+  },
+  "HandOutlines": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\HandOutlines\\HandOutlines_TRAIN.ts": "c07e9dd5cdda0ae4171d85cc842cf1afd027c240aa2b09a3e70f29874f0126ff",
+        "data\\HandOutlines\\HandOutlines_TEST.ts": "8f0a790da434c732467c3fd7c63a91d80c59f9154e51882adfbd4dcebf77e809"
+      }
+    },
+    "n_train": 1000,
+    "n_test": 370,
+    "length": 2709,
+    "n_features": 24015,
+    "n_classes": 2,
+    "classes": [
+      "0",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 8.61173190000045,
+    "transform_train_batched_seconds": 5.850687999999536,
+    "transform_test_batched_seconds": 2.1759093000000576
+  },
+  "Haptics": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Haptics\\Haptics_TRAIN.ts": "1ef6d9874656dc20c53fc84d3282cad39eaa7113a382e208fe1cffa6b4320865",
+        "data\\Haptics\\Haptics_TEST.ts": "3a3bc40463592e4e32e971516405d8c216997ce1b00221862ccb6fa19d9758a5"
+      }
+    },
+    "n_train": 155,
+    "n_test": 308,
+    "length": 1092,
+    "n_features": 9778,
+    "n_classes": 5,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 2.541808100000708,
+    "transform_train_batched_seconds": 0.8937872000005882,
+    "transform_test_batched_seconds": 1.476497699999527
+  },
+  "Herring": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Herring\\Herring_TRAIN.ts": "170efaae470620ecbd8680ca6078220a285618cce632e3309a419e4cd272daab",
+        "data\\Herring\\Herring_TEST.ts": "69f5c87985a96386c64313e0682780f8e240a81295bff826b4e300e10101ab0d"
+      }
+    },
+    "n_train": 64,
+    "n_test": 64,
+    "length": 512,
+    "n_features": 4500,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.40253759999995964,
+    "transform_train_batched_seconds": 0.15685889999986102,
+    "transform_test_batched_seconds": 0.23361900000054447
+  },
+  "HouseTwenty": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\HouseTwenty\\HouseTwenty_TRAIN.ts": "d985c12a9aa2b7eb4758ba21e29a1f705d4cb1d2c2f697c85b95346f8f3dd555",
+        "data\\HouseTwenty\\HouseTwenty_TEST.ts": "29c4881b66ec5174e79c70fb6564ccb53cf8e2c01663b3eedae0f9049e9ce319"
+      }
+    },
+    "n_train": 40,
+    "n_test": 119,
+    "length": 2000,
+    "n_features": 17752,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.4440599999998085,
+    "transform_train_batched_seconds": 0.389439499999753,
+    "transform_test_batched_seconds": 0.9540391999998974
+  },
+  "InlineSkate": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\InlineSkate\\InlineSkate_TRAIN.ts": "49835edcab4b60c7aae9c834158f84905e4e7d440b8ed7b991161dab6067c725",
+        "data\\InlineSkate\\InlineSkate_TEST.ts": "b4ecc9a4f5654dfd51e865f78a3ad74defcab9e94dcd3629f77b01a3698b827b"
+      }
+    },
+    "n_train": 100,
+    "n_test": 550,
+    "length": 1882,
+    "n_features": 16711,
+    "n_classes": 7,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 6.950935400000162,
+    "transform_train_batched_seconds": 1.041921099999854,
+    "transform_test_batched_seconds": 5.402668900000208
+  },
+  "InsectEPGRegularTrain": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\InsectEPGRegularTrain\\InsectEPGRegularTrain_TRAIN.ts": "5e76cfd57c7fe3a8dc53a4d0dcf3b083fc063b04881801b9b39955c81ab574b2",
+        "data\\InsectEPGRegularTrain\\InsectEPGRegularTrain_TEST.ts": "66efe94e1e67d44c6e7e5d462dad3afe7e5bbc7d96cc3d6b95e2221b0fe7fb69"
+      }
+    },
+    "n_train": 62,
+    "n_test": 249,
+    "length": 601,
+    "n_features": 5472,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.48245289999977103,
+    "transform_train_batched_seconds": 0.10770680000041466,
+    "transform_test_batched_seconds": 0.3395667000004323
+  },
+  "InsectEPGSmallTrain": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\InsectEPGSmallTrain\\InsectEPGSmallTrain_TRAIN.ts": "a3bf08aca2030fa7a402b02e423651eaec8f7562914412121a91fe6bc275ff03",
+        "data\\InsectEPGSmallTrain\\InsectEPGSmallTrain_TEST.ts": "263a9b281f9f152883a183aaf7abb0d7a0079cc8578bb44e55d18e95c5d35436"
+      }
+    },
+    "n_train": 17,
+    "n_test": 249,
+    "length": 601,
+    "n_features": 5472,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.4508129999994708,
+    "transform_train_batched_seconds": 0.059857799999917916,
+    "transform_test_batched_seconds": 0.3636329000000842
+  },
+  "InsectWingbeatSound": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\InsectWingbeatSound\\InsectWingbeatSound_TRAIN.ts": "c8b168809e1c28ba1e895c582b34f8db48d87997825ecda918b17dedfe444197",
+        "data\\InsectWingbeatSound\\InsectWingbeatSound_TEST.ts": "b01c10620e2608fb23e78b126e0884395cd7f76763a1d5379798e1c1810fed88"
+      }
+    },
+    "n_train": 220,
+    "n_test": 1980,
+    "length": 256,
+    "n_features": 2253,
+    "n_classes": 11,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.834879699999874,
+    "transform_train_batched_seconds": 0.20431529999950726,
+    "transform_test_batched_seconds": 1.5286523000004308
+  },
+  "ItalyPowerDemand": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ItalyPowerDemand\\ItalyPowerDemand_TRAIN.ts": "341269cb7e6cef96846b30e774580beec79addb93848ba360145219115a74b7c",
+        "data\\ItalyPowerDemand\\ItalyPowerDemand_TEST.ts": "26122451f87dd0387ef90b18bc8a86c041371b8a1c068004922b939971247144"
+      }
+    },
+    "n_train": 67,
+    "n_test": 1029,
+    "length": 24,
+    "n_features": 212,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.15819199999987177,
+    "transform_train_batched_seconds": 0.025108499999987544,
+    "transform_test_batched_seconds": 0.11600739999994403
+  },
+  "KeplerLightCurves": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\KeplerLightCurves\\KeplerLightCurves_TRAIN.ts": "0cfe5d5d8fc4aa5f21262e0eb5a60cd997cb1c53314ffa07b59221158426e13c",
+        "data_extra\\new_datasets\\KeplerLightCurves\\KeplerLightCurves_TEST.ts": "119d63dddfe5f1fa2ea0399f91a3ca549c2fa1585551c59463cc56a332709b50"
+      }
+    },
+    "n_train": 920,
+    "n_test": 399,
+    "length": 4767,
+    "n_features": 42081,
+    "n_classes": 7,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 33.031791800000065,
+    "transform_train_batched_seconds": 20.843938899999557,
+    "transform_test_batched_seconds": 9.162389000000985
+  },
+  "LargeKitchenAppliances": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\LargeKitchenAppliances\\LargeKitchenAppliances_TRAIN.ts": "fd35144cf7c07b25b117139c81c25166823b1476f4b4a9199828ba666d4e6f63",
+        "data\\LargeKitchenAppliances\\LargeKitchenAppliances_TEST.ts": "4fb2fd578721213250357d4f24a8c48adf95b7260e0c1b7e8ecf4c46de7debbc"
+      }
+    },
+    "n_train": 375,
+    "n_test": 375,
+    "length": 720,
+    "n_features": 6517,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.8608559000003879,
+    "transform_train_batched_seconds": 0.38891160000002856,
+    "transform_test_batched_seconds": 0.38257549999980256
+  },
+  "Lightning2": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Lightning2\\Lightning2_TRAIN.ts": "e52c127f3c83d98325e4c6c29d39df72e244633996ca1a5c75e8e36fe1f7ad46",
+        "data\\Lightning2\\Lightning2_TEST.ts": "0e68d9d11b9b2000d4e16bbc3064a5a98be12a23cf1f38e26b073d2488fd3a87"
+      }
+    },
+    "n_train": 60,
+    "n_test": 61,
+    "length": 637,
+    "n_features": 5647,
+    "n_classes": 2,
+    "classes": [
+      "-1",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.21028690000002825,
+    "transform_train_batched_seconds": 0.1011542999995072,
+    "transform_test_batched_seconds": 0.09350610000001325
+  },
+  "Lightning7": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Lightning7\\Lightning7_TRAIN.ts": "87a13f8e3af3d8cff169bc27ee632ef8b66173dd57b5fc8784e3ed8e5943e3ee",
+        "data\\Lightning7\\Lightning7_TEST.ts": "b0f7feaa0f2602e3b639e00ccbfafcc9d523bc5e7aaa3440bd5c7190e6c1d285"
+      }
+    },
+    "n_train": 70,
+    "n_test": 73,
+    "length": 319,
+    "n_features": 2966,
+    "n_classes": 7,
+    "classes": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.19360239999969053,
+    "transform_train_batched_seconds": 0.09402940000018134,
+    "transform_test_batched_seconds": 0.0896257999993395
+  },
+  "Mallat": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Mallat\\Mallat_TRAIN.ts": "d8e2a5a24c9665a7d0c9d45ce0888d25adba0d18044f09c90147652f5643072d",
+        "data\\Mallat\\Mallat_TEST.ts": "cde2109a3efd3e2a0422a1bca5c723b0615102001a02cf45e2422621125992ec"
+      }
+    },
+    "n_train": 55,
+    "n_test": 2345,
+    "length": 1024,
+    "n_features": 8994,
+    "n_classes": 8,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 5.365416299999197,
+    "transform_train_batched_seconds": 0.14000769999984186,
+    "transform_test_batched_seconds": 4.825064499999826
+  },
+  "Meat": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Meat\\Meat_TRAIN.ts": "869616b76404b0e4b56098647e3ffbf84c20e25b8a3e24baff8939bed77e889a",
+        "data\\Meat\\Meat_TEST.ts": "06fe6af71bd6ac5ecd137d32df58a021e373237ebbc9e33b8d5faad9aa81b350"
+      }
+    },
+    "n_train": 60,
+    "n_test": 60,
+    "length": 448,
+    "n_features": 4062,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.14803029999984574,
+    "transform_train_batched_seconds": 0.07579100000020844,
+    "transform_test_batched_seconds": 0.06111049999981333
+  },
+  "MedicalImages": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\MedicalImages\\MedicalImages_TRAIN.ts": "6548f016a8d2f5e1175443160a8a796194dc04fe5b0eceea39051189ccbcea83",
+        "data\\MedicalImages\\MedicalImages_TEST.ts": "2d7e9ccb870d4862928149cb16e3c0386724549ca5bf3e99a873f4d454cda23b"
+      }
+    },
+    "n_train": 381,
+    "n_test": 760,
+    "length": 99,
+    "n_features": 1026,
+    "n_classes": 10,
+    "classes": [
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.5826315000003888,
+    "transform_train_batched_seconds": 0.18619459999990795,
+    "transform_test_batched_seconds": 0.3717376000004151
+  },
+  "MelbournePedestrianNmv": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\MelbournePedestrian_nmv\\MelbournePedestrian_nmv_TRAIN.ts": "ead69de6c5d2d20e1826b7eff4ac089496f4d7219c8155790f421dfd995c4dfb",
+        "data_extra\\new_datasets\\MelbournePedestrian_nmv\\MelbournePedestrian_nmv_TEST.ts": "589d5f9ae31119a58c7109a8f137afc7c8f16d5d7fbc3877ae22563c8f7ee64b"
+      }
+    },
+    "n_train": 1138,
+    "n_test": 2319,
+    "length": 24,
+    "n_features": 212,
+    "n_classes": 10,
+    "classes": [
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.2758333000001585,
+    "transform_train_batched_seconds": 0.4032210000004852,
+    "transform_test_batched_seconds": 0.8004882000004727
+  },
+  "MiddlePhalanxOutlineAgeGroup": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\MiddlePhalanxOutlineAgeGroup\\MiddlePhalanxOutlineAgeGroup_TRAIN.ts": "4b39482304b2cd0d588f1684b7705e57b2e3c47c4c13fd23d13fb809d85cc691",
+        "data\\MiddlePhalanxOutlineAgeGroup\\MiddlePhalanxOutlineAgeGroup_TEST.ts": "957387a819eb7c07c76973bd6e3a2b59f04cb950c955b65351cc9a8f64553eaa"
+      }
+    },
+    "n_train": 400,
+    "n_test": 154,
+    "length": 80,
+    "n_features": 900,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.2667771999995239,
+    "transform_train_batched_seconds": 0.18306250000023283,
+    "transform_test_batched_seconds": 0.0733542000007219
+  },
+  "MiddlePhalanxOutlineCorrect": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\MiddlePhalanxOutlineCorrect\\MiddlePhalanxOutlineCorrect_TRAIN.ts": "4d86f14be3bccdf2167af84a3a76d648d886ab1b28e9cc21f917c15ba32b8238",
+        "data\\MiddlePhalanxOutlineCorrect\\MiddlePhalanxOutlineCorrect_TEST.ts": "48a88aba33cc202d4a7d249cc79c05dc2d51bc3fd115af310992933bc2839d26"
+      }
+    },
+    "n_train": 600,
+    "n_test": 291,
+    "length": 80,
+    "n_features": 900,
+    "n_classes": 2,
+    "classes": [
+      "0",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.4136601999998675,
+    "transform_train_batched_seconds": 0.2643386999998256,
+    "transform_test_batched_seconds": 0.13346929999988788
+  },
+  "MiddlePhalanxTW": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\MiddlePhalanxTW\\MiddlePhalanxTW_TRAIN.ts": "d40166ce7ebdc660bc5d8d3cef7da360d51f243554d25627622bbb84bd351281",
+        "data\\MiddlePhalanxTW\\MiddlePhalanxTW_TEST.ts": "b4886e7bce157261d6284caec49cc87516b9bf9104ce9a445cb87f8ec5ef17c0"
+      }
+    },
+    "n_train": 399,
+    "n_test": 154,
+    "length": 80,
+    "n_features": 900,
+    "n_classes": 6,
+    "classes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.27660609999929875,
+    "transform_train_batched_seconds": 0.18403720000060275,
+    "transform_test_batched_seconds": 0.07452109999940149
+  },
+  "MixedShapesRegularTrain": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\MixedShapesRegularTrain\\MixedShapesRegularTrain_TRAIN.ts": "33a31ca0f120f7764cd832d5a3fa81f1b28a2c45ea4c072eeea9a9d22c647d97",
+        "data\\MixedShapesRegularTrain\\MixedShapesRegularTrain_TEST.ts": "b3fb50d4d73f066e583a2e2e5da2ac472c01e204d3937186534db301ec57871d"
+      }
+    },
+    "n_train": 500,
+    "n_test": 2425,
+    "length": 1024,
+    "n_features": 8994,
+    "n_classes": 5,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 6.648731000000225,
+    "transform_train_batched_seconds": 1.0341063000005306,
+    "transform_test_batched_seconds": 5.142219900000782
+  },
+  "MixedShapesSmallTrain": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\MixedShapesSmallTrain\\MixedShapesSmallTrain_TRAIN.ts": "1fb3ae8b60b1ba5bf4df52706d0214704545f0352c74aa7b40c07b86c5c5e2ce",
+        "data\\MixedShapesSmallTrain\\MixedShapesSmallTrain_TEST.ts": "44f3ddc1a1c0de3819f562f72dae7891400b1d8e8808765a534847bbc0b426dc"
+      }
+    },
+    "n_train": 100,
+    "n_test": 2425,
+    "length": 1024,
+    "n_features": 8994,
+    "n_classes": 5,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 5.88416529999995,
+    "transform_train_batched_seconds": 0.24387139999998908,
+    "transform_test_batched_seconds": 5.221401900000274
+  },
+  "MoteStrain": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\MoteStrain\\MoteStrain_TRAIN.ts": "801dcf199c1d25a9e9e88bad12ad6a71b1ba6f9d0dfc485325b60fd757022bca",
+        "data\\MoteStrain\\MoteStrain_TEST.ts": "9313c3e56a4efa807e3c00064f7b124c75e9678fa84b8ccc7680a3e173df5d74"
+      }
+    },
+    "n_train": 20,
+    "n_test": 1252,
+    "length": 84,
+    "n_features": 935,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.6629321999998865,
+    "transform_train_batched_seconds": 0.04001479999988078,
+    "transform_test_batched_seconds": 0.5906247000002622
+  },
+  "NonInvasiveFetalECGThorax1": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\NonInvasiveFetalECGThorax1\\NonInvasiveFetalECGThorax1_TRAIN.ts": "ae6f9840a7961367b305e38466c411a0477b38050c5c8bde014ad483c3d827e9",
+        "data\\NonInvasiveFetalECGThorax1\\NonInvasiveFetalECGThorax1_TEST.ts": "7813f0e4c2a85e9e53018d445e61943f8ec0cb1c72b23c9bd00192b87e8a93cf"
+      }
+    },
+    "n_train": 1800,
+    "n_test": 1965,
+    "length": 750,
+    "n_features": 6684,
+    "n_classes": 42,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "4",
+      "40",
+      "41",
+      "42",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 15.3207553000002,
+    "transform_train_batched_seconds": 7.047066899999663,
+    "transform_test_batched_seconds": 7.498743199999808
+  },
+  "NonInvasiveFetalECGThorax2": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\NonInvasiveFetalECGThorax2\\NonInvasiveFetalECGThorax2_TRAIN.ts": "efbe42b7ff05551ea654522c66f1f2015ee9770e4953862e90cb0fe2fb4f8eed",
+        "data\\NonInvasiveFetalECGThorax2\\NonInvasiveFetalECGThorax2_TEST.ts": "70ed22f2d21691c71a62a4aaf9fbb0295b4920cf5d0a00f1b8ce727db826d99b"
+      }
+    },
+    "n_train": 1800,
+    "n_test": 1965,
+    "length": 750,
+    "n_features": 6684,
+    "n_classes": 42,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "4",
+      "40",
+      "41",
+      "42",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 20.430659300000116,
+    "transform_train_batched_seconds": 9.230638300000464,
+    "transform_test_batched_seconds": 10.29756769999949
+  },
+  "OliveOil": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\OliveOil\\OliveOil_TRAIN.ts": "6103dcc8dd0d4f02a54eaf6257ecf4cf4c646e12ff6a74706f25c53b905577a9",
+        "data\\OliveOil\\OliveOil_TEST.ts": "5d0d35cbfa8fc190b4f672b48284a09a06a62066405fef999e5c83b6786c0135"
+      }
+    },
+    "n_train": 30,
+    "n_test": 30,
+    "length": 570,
+    "n_features": 5200,
+    "n_classes": 4,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.2889150000000882,
+    "transform_train_batched_seconds": 0.14291730000059033,
+    "transform_test_batched_seconds": 0.12817529999938415
+  },
+  "OSULeaf": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\OSULeaf\\OSULeaf_TRAIN.ts": "86b9d6e860414ffd26cebc62fff84ffb37fa588ef3e5bf79e4094a437c36ddfc",
+        "data\\OSULeaf\\OSULeaf_TEST.ts": "6c549dd354f9e42d5985fa5fab75321ca9acefc7873457e71467fc8a31f107ce"
+      }
+    },
+    "n_train": 200,
+    "n_test": 242,
+    "length": 427,
+    "n_features": 3997,
+    "n_classes": 6,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.601227000000108,
+    "transform_train_batched_seconds": 0.6445238000005702,
+    "transform_test_batched_seconds": 0.8859277999999904
+  },
+  "PhalangesOutlinesCorrect": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\PhalangesOutlinesCorrect\\PhalangesOutlinesCorrect_TRAIN.ts": "ec91bbfa3e28aa645db7bf51438e5def38df12cc166097818ae777ed19c29b24",
+        "data\\PhalangesOutlinesCorrect\\PhalangesOutlinesCorrect_TEST.ts": "005f230516efa972bd72dc2bdcf7cc817362bcc148ccdeac7ffd52fe9e5f03d7"
+      }
+    },
+    "n_train": 1800,
+    "n_test": 858,
+    "length": 80,
+    "n_features": 900,
+    "n_classes": 2,
+    "classes": [
+      "0",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 3.642453299999943,
+    "transform_train_batched_seconds": 2.413981800000329,
+    "transform_test_batched_seconds": 1.0705731999996715
+  },
+  "PhoneHeartbeatSound": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\PhoneHeartbeatSound\\PhoneHeartbeatSound_TRAIN.ts": "04dcdb735b6c6067e4b437d773378c2ab8983638ff782b0ed46b801bec688cb6",
+        "data_extra\\new_datasets\\PhoneHeartbeatSound\\PhoneHeartbeatSound_TEST.ts": "4695fb712dabf591df101e878c4330ae61f15ded3b5de8a1aad0762d31544708"
+      }
+    },
+    "n_train": 424,
+    "n_test": 182,
+    "length": 3053,
+    "n_features": 26906,
+    "n_classes": 5,
+    "classes": [
+      "artifact",
+      "extrahls",
+      "extrastole",
+      "murmur",
+      "normal"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 9.031275400000595,
+    "transform_train_batched_seconds": 5.918056599999545,
+    "transform_test_batched_seconds": 2.4911341999995784
+  },
+  "Phoneme": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Phoneme\\Phoneme_TRAIN.ts": "20fa4b84378732f2ed62b23f174fd3a0f7269785c81d774f9b46bd2df6f9b8ff",
+        "data\\Phoneme\\Phoneme_TEST.ts": "58d7540a758fc0ab85146ca53b9427deb9fec82d1f0a48fb5b1ae26f3d35abf9"
+      }
+    },
+    "n_train": 214,
+    "n_test": 1896,
+    "length": 1024,
+    "n_features": 8994,
+    "n_classes": 39,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 10.881770900000447,
+    "transform_train_batched_seconds": 1.107173999999759,
+    "transform_test_batched_seconds": 8.949858200000563
+  },
+  "PickupGestureWiimoteZEq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\PickupGestureWiimoteZ_eq\\PickupGestureWiimoteZ_eq_TRAIN.ts": "f7120cb4d4a3bce5369cb6f8ec6c7cf273388c665454f1158daeff4c409f74b0",
+        "data_extra\\new_datasets\\PickupGestureWiimoteZ_eq\\PickupGestureWiimoteZ_eq_TEST.ts": "5ebe1b5d8e88758beface64dfc0faa022b2d7ac5495efe4dd6aa73d103c3e393"
+      }
+    },
+    "n_train": 50,
+    "n_test": 50,
+    "length": 361,
+    "n_features": 3331,
+    "n_classes": 10,
+    "classes": [
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.138330900001165,
+    "transform_train_batched_seconds": 0.07136069999978645,
+    "transform_test_batched_seconds": 0.05580480000026
+  },
+  "PigAirwayPressure": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\PigAirwayPressure\\PigAirwayPressure_TRAIN.ts": "098fae47b9cc7d1630ff8765baa29980c9733bbbf693ac6dc54fe61a15c3cabd",
+        "data\\PigAirwayPressure\\PigAirwayPressure_TEST.ts": "1d9a694c078e3532c378dcb6bcfffa69717b7f68e722fd50b55bdfe3d9875447"
+      }
+    },
+    "n_train": 104,
+    "n_test": 208,
+    "length": 2000,
+    "n_features": 17752,
+    "n_classes": 52,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "4",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "5",
+      "50",
+      "51",
+      "52",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 3.008347799999683,
+    "transform_train_batched_seconds": 0.9279867000004742,
+    "transform_test_batched_seconds": 1.8800105999998777
+  },
+  "PigArtPressure": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\PigArtPressure\\PigArtPressure_TRAIN.ts": "099fb1a8ef8d0ce49e50e48f38618bdac9e646037a4af31fd93e12dc38eaee46",
+        "data\\PigArtPressure\\PigArtPressure_TEST.ts": "424ab19d34c7864d43286fa071bc3944d8ca84e0d3f52a54837a04c454e9c1d3"
+      }
+    },
+    "n_train": 104,
+    "n_test": 208,
+    "length": 2000,
+    "n_features": 17752,
+    "n_classes": 52,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "4",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "5",
+      "50",
+      "51",
+      "52",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 2.9517101999999795,
+    "transform_train_batched_seconds": 0.9184772999997222,
+    "transform_test_batched_seconds": 1.8384501000000455
+  },
+  "PigCVP": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\PigCVP\\PigCVP_TRAIN.ts": "27d3f3806b9ee1c13ef7a40f150bf8fe9e7b81355fc86c9136d2eeeb39ca2be0",
+        "data\\PigCVP\\PigCVP_TEST.ts": "b680d8a4f0b049e1504c5c2642728cfc289646800832d5848f5664a8f1d80e55"
+      }
+    },
+    "n_train": 104,
+    "n_test": 208,
+    "length": 2000,
+    "n_features": 17752,
+    "n_classes": 52,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "4",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "5",
+      "50",
+      "51",
+      "52",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 3.0292500000014115,
+    "transform_train_batched_seconds": 1.0494758000004367,
+    "transform_test_batched_seconds": 1.8753630999999586
+  },
+  "PLAIDEq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\PLAID_eq\\PLAID_eq_TRAIN.ts": "f0de6df4a12f15e1d68d1e96aff44140850474c2f6425f82e4b491b30b16a987",
+        "data_extra\\new_datasets\\PLAID_eq\\PLAID_eq_TEST.ts": "7c303691275a3a08b57e5f91f43c272419205dd195aa560397a7ae4283779943"
+      }
+    },
+    "n_train": 537,
+    "n_test": 537,
+    "length": 1345,
+    "n_features": 11963,
+    "n_classes": 11,
+    "classes": [
+      "0",
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 7.437196599999879,
+    "transform_train_batched_seconds": 3.4079253999989305,
+    "transform_test_batched_seconds": 3.318332000000737
+  },
+  "Plane": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Plane\\Plane_TRAIN.ts": "75f51b8698b3594dd7b3735db528398d0888dc519f5dfa70c5113c783ca8762f",
+        "data\\Plane\\Plane_TEST.ts": "63cb3549529f3f64f0b60bf9d4f4a36f87783de9fd7e3ba7152849a4a19e0410"
+      }
+    },
+    "n_train": 105,
+    "n_test": 105,
+    "length": 144,
+    "n_features": 1471,
+    "n_classes": 7,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.6708558999998786,
+    "transform_train_batched_seconds": 0.27897659999871394,
+    "transform_test_batched_seconds": 0.37821489999987534
+  },
+  "PowerCons": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\PowerCons\\PowerCons_TRAIN.ts": "86a5f3c2716af6b535e89240a725776820fc72daf84e86e87dcb194e5dd3246a",
+        "data\\PowerCons\\PowerCons_TEST.ts": "3f78227a2ae003bd71918aa3f9359c993f3672d0b61408a0313ee832c0fbaf4b"
+      }
+    },
+    "n_train": 180,
+    "n_test": 180,
+    "length": 144,
+    "n_features": 1471,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.833828299999368,
+    "transform_train_batched_seconds": 0.5244386000013037,
+    "transform_test_batched_seconds": 0.2976576000000932
+  },
+  "ProximalPhalanxOutlineAgeGroup": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ProximalPhalanxOutlineAgeGroup\\ProximalPhalanxOutlineAgeGroup_TRAIN.ts": "5d8f49977988e4bcd1f23779b790f1b77c3cd131f1d729722062abb7f0e25a7b",
+        "data\\ProximalPhalanxOutlineAgeGroup\\ProximalPhalanxOutlineAgeGroup_TEST.ts": "2cdf801fa274e12c97e561577555051bcafd075506a7c9085083d7ed4c1f64bc"
+      }
+    },
+    "n_train": 400,
+    "n_test": 205,
+    "length": 80,
+    "n_features": 900,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.7473484000001918,
+    "transform_train_batched_seconds": 0.4354146999994555,
+    "transform_test_batched_seconds": 0.2996058999997331
+  },
+  "ProximalPhalanxOutlineCorrect": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ProximalPhalanxOutlineCorrect\\ProximalPhalanxOutlineCorrect_TRAIN.ts": "0dc8f4e39625e6e6c4745844510ee92aa8ecaa0dd35db0b258644272373cb92e",
+        "data\\ProximalPhalanxOutlineCorrect\\ProximalPhalanxOutlineCorrect_TEST.ts": "a03bc2fd29b377109bdeffbd420c065adbd3a2cf30258f3a25441f20cadeb72c"
+      }
+    },
+    "n_train": 600,
+    "n_test": 291,
+    "length": 80,
+    "n_features": 900,
+    "n_classes": 2,
+    "classes": [
+      "0",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.3537409999989904,
+    "transform_train_batched_seconds": 0.9096635000005335,
+    "transform_test_batched_seconds": 0.42117859999962093
+  },
+  "ProximalPhalanxTW": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ProximalPhalanxTW\\ProximalPhalanxTW_TRAIN.ts": "f60af7bd23801efa823dcd25d97ab96ce1b074c52fe19700f295a2416d87bd9a",
+        "data\\ProximalPhalanxTW\\ProximalPhalanxTW_TEST.ts": "3823902281cdf9fd87e6d272008ef30917dc44c65ab5103efc937b3711987453"
+      }
+    },
+    "n_train": 400,
+    "n_test": 205,
+    "length": 80,
+    "n_features": 900,
+    "n_classes": 6,
+    "classes": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.018827500000043,
+    "transform_train_batched_seconds": 0.4254018999999971,
+    "transform_test_batched_seconds": 0.5476820999992924
+  },
+  "RefrigerationDevices": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\RefrigerationDevices\\RefrigerationDevices_TRAIN.ts": "3ff00c800357cb7aaec7aad7e298a7a463a86b1c2984ccc58561afdc99486fd3",
+        "data\\RefrigerationDevices\\RefrigerationDevices_TEST.ts": "7c950f1112112e92cc79d6d49d9b5a60b1f6be2bd8b5aed4ae8f72132bdb7f56"
+      }
+    },
+    "n_train": 375,
+    "n_test": 375,
+    "length": 720,
+    "n_features": 6517,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 2.322541100000308,
+    "transform_train_batched_seconds": 1.0970643000000564,
+    "transform_test_batched_seconds": 1.0112181000004057
+  },
+  "Rock": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Rock\\Rock_TRAIN.ts": "d6c81c291001c337d8dfa81ab3918d14fa41e545c24b58ae1e16204059d2b985",
+        "data\\Rock\\Rock_TEST.ts": "a85e9c1763f726152c068ea83f1a705d47146d35c036e347a83aec69ac772c84"
+      }
+    },
+    "n_train": 20,
+    "n_test": 50,
+    "length": 2844,
+    "n_features": 25203,
+    "n_classes": 4,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.21368799999982,
+    "transform_train_batched_seconds": 0.3921219000003475,
+    "transform_test_batched_seconds": 0.7903492999994342
+  },
+  "ScreenType": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ScreenType\\ScreenType_TRAIN.ts": "f4c24b0cf08fa769ed4b1bd2e7567968f2895790316906416fc20ffbb04879e2",
+        "data\\ScreenType\\ScreenType_TEST.ts": "da7aa04c6e867f08c5f5474511fb9605ff9518836fbfde04563ba1e00ebe4b38"
+      }
+    },
+    "n_train": 375,
+    "n_test": 375,
+    "length": 720,
+    "n_features": 6517,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 2.6792003999998997,
+    "transform_train_batched_seconds": 1.1832592999999179,
+    "transform_test_batched_seconds": 1.2328756999995676
+  },
+  "SemgHandGenderCh2": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\SemgHandGenderCh2\\SemgHandGenderCh2_TRAIN.ts": "9583eeaed262565e10c9f8719e87393a9ca29a84dd3923bc62e093433e93b4c4",
+        "data\\SemgHandGenderCh2\\SemgHandGenderCh2_TEST.ts": "5aa07cccd7fb18c73d8e500c47220dda57452f98f0509523ecb76f675c551e6e"
+      }
+    },
+    "n_train": 300,
+    "n_test": 600,
+    "length": 1500,
+    "n_features": 13315,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 7.900258399999075,
+    "transform_train_batched_seconds": 2.4427436999994825,
+    "transform_test_batched_seconds": 4.938188599999194
+  },
+  "SemgHandMovementCh2": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\SemgHandMovementCh2\\SemgHandMovementCh2_TRAIN.ts": "a938971196d83382a4352772212f229fa8b1243c4afd0ac15c9d7cd8f246f658",
+        "data\\SemgHandMovementCh2\\SemgHandMovementCh2_TEST.ts": "deede9fb1d3cfef2fbac299c4c57f2c1e2d9c96acb01ad5361fa229f8584cae3"
+      }
+    },
+    "n_train": 450,
+    "n_test": 450,
+    "length": 1500,
+    "n_features": 13315,
+    "n_classes": 6,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 6.846319000000221,
+    "transform_train_batched_seconds": 3.1003834000002826,
+    "transform_test_batched_seconds": 3.311724700000923
+  },
+  "SemgHandSubjectCh2": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\SemgHandSubjectCh2\\SemgHandSubjectCh2_TRAIN.ts": "776fc69f78ec396095e83578d4c534d548287fd5c90a6f2f6f24c140d8e29ea4",
+        "data\\SemgHandSubjectCh2\\SemgHandSubjectCh2_TEST.ts": "13b6f1531f202746754b885c89d27de512f195a2338c7845a29a3926ce0ed51b"
+      }
+    },
+    "n_train": 450,
+    "n_test": 450,
+    "length": 1500,
+    "n_features": 13315,
+    "n_classes": 5,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 6.892699199999697,
+    "transform_train_batched_seconds": 3.2071154000004753,
+    "transform_test_batched_seconds": 3.292284999999538
+  },
+  "ShakeGestureWiimoteZEq": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\ShakeGestureWiimoteZ_eq\\ShakeGestureWiimoteZ_eq_TRAIN.ts": "93227b33ad339111359fad81015a39dbff05317ee3f9f6fb6f0dbd1941a06c79",
+        "data_extra\\new_datasets\\ShakeGestureWiimoteZ_eq\\ShakeGestureWiimoteZ_eq_TEST.ts": "89ef5d49180e3a0869ca8aa8269c366729ee1b3ce98c8270eba04a8fa0613c5c"
+      }
+    },
+    "n_train": 50,
+    "n_test": 50,
+    "length": 385,
+    "n_features": 3413,
+    "n_classes": 10,
+    "classes": [
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.1456875999992917,
+    "transform_train_batched_seconds": 0.07940899999994144,
+    "transform_test_batched_seconds": 0.0550241000000824
+  },
+  "ShapeletSim": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ShapeletSim\\ShapeletSim_TRAIN.ts": "dfd84628dd135e710d1b28959b43dae1846eb035ca2c77c0465f3b3d4d7a3c20",
+        "data\\ShapeletSim\\ShapeletSim_TEST.ts": "520a57ef71423c8033f194e261d8dd3121d62c6db940534d445d5381aa088b44"
+      }
+    },
+    "n_train": 20,
+    "n_test": 180,
+    "length": 500,
+    "n_features": 4469,
+    "n_classes": 2,
+    "classes": [
+      "0",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.7288353000003553,
+    "transform_train_batched_seconds": 0.1468194000008225,
+    "transform_test_batched_seconds": 0.5421285000011267
+  },
+  "ShapesAll": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ShapesAll\\ShapesAll_TRAIN.ts": "467d39c01fc4fd47393efac3facf9268f36405c73fd880880dc31d54304e369d",
+        "data\\ShapesAll\\ShapesAll_TEST.ts": "c5f5c7cd40f809201d4304254e601002fd474ae798713c49adc3d95b0b93095d"
+      }
+    },
+    "n_train": 600,
+    "n_test": 600,
+    "length": 512,
+    "n_features": 4500,
+    "n_classes": 60,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "4",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "5",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "6",
+      "60",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 3.6086744999993243,
+    "transform_train_batched_seconds": 1.690385600000809,
+    "transform_test_batched_seconds": 1.6984729999985575
+  },
+  "SharePriceIncrease": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\SharePriceIncrease\\SharePriceIncrease_TRAIN.ts": "49ec45d3b21389a8eaf1f0a26e3c8deb8eb74da21bad133122bf0573bd54c9b0",
+        "data_extra\\new_datasets\\SharePriceIncrease\\SharePriceIncrease_TEST.ts": "9b97923cd69737503d1378c0ee1bee28ddbf2762acbe957c272a5a0c8b9d5a3d"
+      }
+    },
+    "n_train": 965,
+    "n_test": 966,
+    "length": 60,
+    "n_features": 653,
+    "n_classes": 2,
+    "classes": [
+      "0",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.8269270000000688,
+    "transform_train_batched_seconds": 0.4164318999992247,
+    "transform_test_batched_seconds": 0.3617821999996522
+  },
+  "SmallKitchenAppliances": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\SmallKitchenAppliances\\SmallKitchenAppliances_TRAIN.ts": "f0ff13cf7f6db1e7bc983d4e348e45fcceea18fc1d90efa00fa9b14a0113dfe8",
+        "data\\SmallKitchenAppliances\\SmallKitchenAppliances_TEST.ts": "c09e7eb6d645547c00d2665105e91473e5202119ae6bba5804ccc8add0518458"
+      }
+    },
+    "n_train": 375,
+    "n_test": 375,
+    "length": 720,
+    "n_features": 6517,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 2.006934099999853,
+    "transform_train_batched_seconds": 1.024595800001407,
+    "transform_test_batched_seconds": 0.7998805000006541
+  },
+  "SmoothSubspace": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\SmoothSubspace\\SmoothSubspace_TRAIN.ts": "f292d884c185316fb06037ff06e1e75e4a0918aa433e5161e0c30faeade25053",
+        "data\\SmoothSubspace\\SmoothSubspace_TEST.ts": "b18bbbab97c8d3feea859c6eb3250dcfe527e253bb7ba19378d7dadec0782dd8"
+      }
+    },
+    "n_train": 150,
+    "n_test": 150,
+    "length": 15,
+    "n_features": 116,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.07004640000013751,
+    "transform_train_batched_seconds": 0.04491249999955471,
+    "transform_test_batched_seconds": 0.015875699999014614
+  },
+  "SonyAIBORobotSurface1": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\SonyAIBORobotSurface1\\SonyAIBORobotSurface1_TRAIN.ts": "f0f1f39a43da6aeb2d87cced9fe8f410a33ae87cc7ae6a91397d42c7597d1441",
+        "data\\SonyAIBORobotSurface1\\SonyAIBORobotSurface1_TEST.ts": "7c011605c5e5f9e3472438c5047aec148ea3176c9ea1886fc24772ecb496fb37"
+      }
+    },
+    "n_train": 20,
+    "n_test": 601,
+    "length": 70,
+    "n_features": 795,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.7722567000000709,
+    "transform_train_batched_seconds": 0.03140469999925699,
+    "transform_test_batched_seconds": 0.7213156999987405
+  },
+  "SonyAIBORobotSurface2": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\SonyAIBORobotSurface2\\SonyAIBORobotSurface2_TRAIN.ts": "c34a4ebc0d5267cd8a402ae2d497a705541ce89eb6f4f8df1897cd1eb03f5cd0",
+        "data\\SonyAIBORobotSurface2\\SonyAIBORobotSurface2_TEST.ts": "d26fa3dba6dbef0f726c7387385ad236d928aedd94c5722b5d83b8a7334add9d"
+      }
+    },
+    "n_train": 27,
+    "n_test": 953,
+    "length": 65,
+    "n_features": 697,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.8604692000008072,
+    "transform_train_batched_seconds": 0.030820599999060505,
+    "transform_test_batched_seconds": 0.8122942999998486
+  },
+  "StarLightCurves": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\StarLightCurves\\StarLightCurves_TRAIN.ts": "fa474c1d299c363104a0855319b7dfe779a73f4f2a2296292fa1a78591c38cae",
+        "data\\StarLightCurves\\StarLightCurves_TEST.ts": "c8d5c1ac5627110bfdd4e6ff5b000b5ca45885a22b4a8a25491035134169b01c"
+      }
+    },
+    "n_train": 1000,
+    "n_test": 8236,
+    "length": 1024,
+    "n_features": 8994,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 33.77618040000016,
+    "transform_train_batched_seconds": 5.971795499999644,
+    "transform_test_batched_seconds": 23.398193199998786
+  },
+  "Strawberry": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Strawberry\\Strawberry_TRAIN.ts": "eb1b18f481d6cf34896d509d849a82eec65cefdb19fb1635184c6f38bc4d0739",
+        "data\\Strawberry\\Strawberry_TEST.ts": "f155b4e9cc79c86647eabdf3d7af21053560b1f473dbc11d1697f41e981b0234"
+      }
+    },
+    "n_train": 613,
+    "n_test": 370,
+    "length": 235,
+    "n_features": 2186,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.7572221999998874,
+    "transform_train_batched_seconds": 0.44364390000009735,
+    "transform_test_batched_seconds": 0.2640925999985484
+  },
+  "SwedishLeaf": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\SwedishLeaf\\SwedishLeaf_TRAIN.ts": "e99bb629e14a421bfbc1882b98cae2c44f7e941c32e547e97c612b480d0bf5be",
+        "data\\SwedishLeaf\\SwedishLeaf_TEST.ts": "f9227efdfdaf8583c279c056e33fbbab7660dce4f17628b7f62c3e767ed3c58c"
+      }
+    },
+    "n_train": 500,
+    "n_test": 625,
+    "length": 128,
+    "n_features": 1160,
+    "n_classes": 15,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.6381455000009737,
+    "transform_train_batched_seconds": 0.28378150000025926,
+    "transform_test_batched_seconds": 0.3149653999989823
+  },
+  "Symbols": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Symbols\\Symbols_TRAIN.ts": "87683839f7dabe3970a3fd2520951dec02533d27b0bd0a115c1b48bfbd0ccb61",
+        "data\\Symbols\\Symbols_TEST.ts": "512ef3d67d8a06f33191afc3969991bace5a4e5b6525159108b9d5f3bac007e3"
+      }
+    },
+    "n_train": 25,
+    "n_test": 995,
+    "length": 398,
+    "n_features": 3689,
+    "n_classes": 6,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 1.045295799998712,
+    "transform_train_batched_seconds": 0.054676699999617995,
+    "transform_test_batched_seconds": 0.9150162000005366
+  },
+  "SyntheticControl": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\SyntheticControl\\SyntheticControl_TRAIN.ts": "cacc277a961ec777f3387d0d51f6c944a624882f3cd8df84ad82d0041848a1ea",
+        "data\\SyntheticControl\\SyntheticControl_TEST.ts": "c6ea3033d689f4a120f17958da8d23de35fe33a9a2bcaa4857be5138cbe31cc0"
+      }
+    },
+    "n_train": 300,
+    "n_test": 300,
+    "length": 60,
+    "n_features": 653,
+    "n_classes": 6,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.24786589999894204,
+    "transform_train_batched_seconds": 0.11985730000014883,
+    "transform_test_batched_seconds": 0.11092960000132734
+  },
+  "ToeSegmentation1": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ToeSegmentation1\\ToeSegmentation1_TRAIN.ts": "e9b7ea56528bb2395546b59a62e0623b80bf8acdf71c241ad83e094eeae82c3b",
+        "data\\ToeSegmentation1\\ToeSegmentation1_TEST.ts": "4b96a0d77b1d88083f8b5d160c15ba51eea3668b6258a27a33ba54d0d96189b2"
+      }
+    },
+    "n_train": 40,
+    "n_test": 228,
+    "length": 277,
+    "n_features": 2658,
+    "n_classes": 2,
+    "classes": [
+      "0",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.2685732000009011,
+    "transform_train_batched_seconds": 0.05136479999964649,
+    "transform_test_batched_seconds": 0.20192920000044978
+  },
+  "ToeSegmentation2": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\ToeSegmentation2\\ToeSegmentation2_TRAIN.ts": "9d780508a543f73af72597ec821e2d6e2085f342e8ad797c8178a6d2e80d811f",
+        "data\\ToeSegmentation2\\ToeSegmentation2_TEST.ts": "e725908a3e645db112ce756da45e107b4b7d7d6586de7ddffe975ad0f64dfd7b"
+      }
+    },
+    "n_train": 36,
+    "n_test": 130,
+    "length": 343,
+    "n_features": 3222,
+    "n_classes": 2,
+    "classes": [
+      "0",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.2109973999995418,
+    "transform_train_batched_seconds": 0.053890099999989616,
+    "transform_test_batched_seconds": 0.14412350000020524
+  },
+  "Tools": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data_extra\\new_datasets\\Tools\\Tools_TRAIN.ts": "7306344f2e653597b786ce9dc6b098c0e8ebf3d69dbbe5b8352af97a40ddd650",
+        "data_extra\\new_datasets\\Tools\\Tools_TEST.ts": "52220ef6a8c3c434ef346651325d32264847622f64c06381b1df0d3aaa2053c3"
+      }
+    },
+    "n_train": 310,
+    "n_test": 134,
+    "length": 2926,
+    "n_features": 25815,
+    "n_classes": 5,
+    "classes": [
+      "chainsaw",
+      "drill",
+      "hammer",
+      "horn",
+      "sword"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 2.935616500000833,
+    "transform_train_batched_seconds": 1.893226100000902,
+    "transform_test_batched_seconds": 0.8248975999995309
+  },
+  "Trace": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Trace\\Trace_TRAIN.ts": "02122cf1b5bc030639f53a9e17b1212f737628802bf0a598f33a3c8de2dc45f9",
+        "data\\Trace\\Trace_TEST.ts": "044189ec6df2ac9ad9f30b546d38ee748fbf499c274f01a76fcc10ae1a54e5ac"
+      }
+    },
+    "n_train": 100,
+    "n_test": 100,
+    "length": 275,
+    "n_features": 2629,
+    "n_classes": 4,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.20436989999871003,
+    "transform_train_batched_seconds": 0.0975641999993968,
+    "transform_test_batched_seconds": 0.08751089999896067
+  },
+  "TwoLeadECG": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\TwoLeadECG\\TwoLeadECG_TRAIN.ts": "ac3256b83198ac9c7df0e428d615914e5084a3739699b019a5304b4a0157989d",
+        "data\\TwoLeadECG\\TwoLeadECG_TEST.ts": "ca5a7d5e5cbd9ad9f3f9abaa0e0967b651f315eec98ce7dcecf070e153f60231"
+      }
+    },
+    "n_train": 23,
+    "n_test": 1139,
+    "length": 82,
+    "n_features": 918,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.5414015000005747,
+    "transform_train_batched_seconds": 0.0310804000000644,
+    "transform_test_batched_seconds": 0.48213469999973313
+  },
+  "TwoPatterns": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\TwoPatterns\\TwoPatterns_TRAIN.ts": "151261f566de950a2dfcd6f03bbd0e2672786ce61b3022984b9342fed64b6d39",
+        "data\\TwoPatterns\\TwoPatterns_TEST.ts": "07ff80b04472c03300c5758227ab017926391379693afc69723573e8cb5e3275"
+      }
+    },
+    "n_train": 1000,
+    "n_test": 4000,
+    "length": 128,
+    "n_features": 1160,
+    "n_classes": 4,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 2.7184340999992855,
+    "transform_train_batched_seconds": 0.544909700000062,
+    "transform_test_batched_seconds": 2.0399411999987933
+  },
+  "UMD": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\UMD\\UMD_TRAIN.ts": "c683515e3a5e6cc097a923bdc76f17d57595feee07200c106c14bac4a2a5b8fb",
+        "data\\UMD\\UMD_TEST.ts": "61f7c1b85cfcc3bfe35c159bc525af6f9edc93c1e0c10f9f4dc69508e62b4a8b"
+      }
+    },
+    "n_train": 36,
+    "n_test": 144,
+    "length": 150,
+    "n_features": 1556,
+    "n_classes": 3,
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.15851610000026994,
+    "transform_train_batched_seconds": 0.046370800000659074,
+    "transform_test_batched_seconds": 0.10134740000103193
+  },
+  "UWaveGestureLibraryAll": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\UWaveGestureLibraryAll\\UWaveGestureLibraryAll_TRAIN.ts": "92a6d2a7ede0e578ac0ad6a6f0fab873493140ca0844359bee908deca84f3c4e",
+        "data\\UWaveGestureLibraryAll\\UWaveGestureLibraryAll_TEST.ts": "8e6a8104abc0e216dceaffa64e1cdaa416f752ae572c11e3ac0ad2e478444092"
+      }
+    },
+    "n_train": 896,
+    "n_test": 3582,
+    "length": 945,
+    "n_features": 8501,
+    "n_classes": 8,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 8.81083789999866,
+    "transform_train_batched_seconds": 1.6248517999993055,
+    "transform_test_batched_seconds": 6.481190399999832
+  },
+  "UWaveGestureLibraryX": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\UWaveGestureLibraryX\\UWaveGestureLibraryX_TRAIN.ts": "5cf54a659550117d486c6da04d5142e9ff870845fd734d3342db50ffbb8022f4",
+        "data\\UWaveGestureLibraryX\\UWaveGestureLibraryX_TEST.ts": "80fe94f9b6e0cbda591135dc934767a4f8eca423bc0a5638586e0c8ba71acf8b"
+      }
+    },
+    "n_train": 896,
+    "n_test": 3582,
+    "length": 315,
+    "n_features": 2957,
+    "n_classes": 8,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 10.466303200000766,
+    "transform_train_batched_seconds": 1.9481878000005963,
+    "transform_test_batched_seconds": 7.837544300000445
+  },
+  "UWaveGestureLibraryY": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\UWaveGestureLibraryY\\UWaveGestureLibraryY_TRAIN.ts": "9bca0aedaddf3ca704d2ffe57a7857c7ccd44cee5834dde234abcc682703ac6c",
+        "data\\UWaveGestureLibraryY\\UWaveGestureLibraryY_TEST.ts": "6a0b4e32faa696e28cd5638ec9cf9f14b5cf4a630b0e8e446bbc0abf79883e33"
+      }
+    },
+    "n_train": 896,
+    "n_test": 3582,
+    "length": 315,
+    "n_features": 2957,
+    "n_classes": 8,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 5.1058943000007275,
+    "transform_train_batched_seconds": 1.664893299999676,
+    "transform_test_batched_seconds": 2.95581730000049
+  },
+  "UWaveGestureLibraryZ": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\UWaveGestureLibraryZ\\UWaveGestureLibraryZ_TRAIN.ts": "ff49d8291a156baafb1a9a630c2006f2a6a2202bc6ae0ea5078fbe684296bb91",
+        "data\\UWaveGestureLibraryZ\\UWaveGestureLibraryZ_TEST.ts": "5a08c7d88d085c2ee375fc15c31287dd837e08b02ff110ddeeb98e59d74bbf5c"
+      }
+    },
+    "n_train": 896,
+    "n_test": 3582,
+    "length": 315,
+    "n_features": 2957,
+    "n_classes": 8,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 3.9837435000008554,
+    "transform_train_batched_seconds": 0.7155134999993606,
+    "transform_test_batched_seconds": 3.0169500000010885
+  },
+  "Wafer": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Wafer\\Wafer_TRAIN.ts": "5950e49f7c6619d25c2ee123579560bf2a60dc6e01620793bc117acf620291ac",
+        "data\\Wafer\\Wafer_TEST.ts": "afe988718ce5fe21b2fafe0c1f49a153d5e02dc15997e1d60846918e5c08a250"
+      }
+    },
+    "n_train": 1000,
+    "n_test": 6164,
+    "length": 152,
+    "n_features": 1572,
+    "n_classes": 2,
+    "classes": [
+      "-1",
+      "1"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 4.393990399999893,
+    "transform_train_batched_seconds": 0.6331286999993608,
+    "transform_test_batched_seconds": 3.5423209000000497
+  },
+  "Wine": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Wine\\Wine_TRAIN.ts": "f86efca9fb554adb5a2a13a7d2eed4d4ef1bdaee1f63d4e5dfe4e94a42db6960",
+        "data\\Wine\\Wine_TEST.ts": "0abbed311e5a5dcd9910946fee0733c1e9b77b22c18f2ca11f215f11edd6677c"
+      }
+    },
+    "n_train": 57,
+    "n_test": 54,
+    "length": 234,
+    "n_features": 2182,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.09442219999982626,
+    "transform_train_batched_seconds": 0.049300600001515704,
+    "transform_test_batched_seconds": 0.03909139999996114
+  },
+  "WordSynonyms": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\WordSynonyms\\WordSynonyms_TRAIN.ts": "38787d9af36aeaf6fb5a621bcb81fc64c984899690fa34b30c78c12188825d13",
+        "data\\WordSynonyms\\WordSynonyms_TEST.ts": "d0ee44bd0c937245c48c9f6038e0a024214c30253ab7eab8521a04b1694b60d6"
+      }
+    },
+    "n_train": 267,
+    "n_test": 638,
+    "length": 270,
+    "n_features": 2549,
+    "n_classes": 25,
+    "classes": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.7541985000007116,
+    "transform_train_batched_seconds": 0.22916519999853335,
+    "transform_test_batched_seconds": 0.4727550000006886
+  },
+  "Worms": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Worms\\Worms_TRAIN.ts": "0fbba999b822899b4bcced2b50a7a321d0dd57881d7a4bdf18f193f1d61b50a0",
+        "data\\Worms\\Worms_TEST.ts": "9dd96f39db9d17b431718c8265c73b38555d39600b53a4bd373edf87fe8246a4"
+      }
+    },
+    "n_train": 181,
+    "n_test": 77,
+    "length": 900,
+    "n_features": 7987,
+    "n_classes": 5,
+    "classes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.5921777999992628,
+    "transform_train_batched_seconds": 0.37231509999946866,
+    "transform_test_batched_seconds": 0.16950340000039432
+  },
+  "WormsTwoClass": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\WormsTwoClass\\WormsTwoClass_TRAIN.ts": "353a40c1fc2f9c38a898babeacf9d4870d728524da41cf05720338bc8437bdda",
+        "data\\WormsTwoClass\\WormsTwoClass_TEST.ts": "ecf7b07e5d25ed6db8ed8e644fc313698ef3259b2ca23909962d2db6888fdbbe"
+      }
+    },
+    "n_train": 181,
+    "n_test": 77,
+    "length": 900,
+    "n_features": 7987,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 0.5752245000003313,
+    "transform_train_batched_seconds": 0.3631882999998197,
+    "transform_test_batched_seconds": 0.1657868000002054
+  },
+  "Yoga": {
+    "config": {
+      "source_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+      "depth": 6,
+      "div": 4,
+      "torch": "2.5.1+cpu",
+      "numpy": "1.26.4",
+      "files": {
+        "data\\Yoga\\Yoga_TRAIN.ts": "321c229665c6a1445e343272ca5b2575a52723e715f9119b7529e3fd8f7113e3",
+        "data\\Yoga\\Yoga_TEST.ts": "0283e2474b7fe65ddd956150822208395cde45ee499e1649aea588eb4e3c0cf4"
+      }
+    },
+    "n_train": 300,
+    "n_test": 3000,
+    "length": 426,
+    "n_features": 3993,
+    "n_classes": 2,
+    "classes": [
+      "1",
+      "2"
+    ],
+    "batch_size": 64,
+    "prepare_seconds": 3.5635679999995773,
+    "transform_train_batched_seconds": 0.3237728000003699,
+    "transform_test_batched_seconds": 2.9968208000009326
+  }
+}

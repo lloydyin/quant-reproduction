@@ -1,0 +1,23 @@
+{
+  "python": "3.11.15 (main, May 10 2026, 19:31:25) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.5.1+cpu",
+  "numpy": "1.26.4",
+  "scikit_learn": "1.5.2",
+  "quant_sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+  "n_estimators": 200,
+  "max_features": 0.1,
+  "criterion": "entropy",
+  "depth": 6,
+  "div": 4,
+  "random_state": "resample index (0..29)",
+  "n_jobs": 8,
+  "torch_threads": 1,
+  "indices": "Java for original 112, Python for additional 30",
+  "index_archive_sha256": {
+    "java": "1a0bec9f78a4dedd23e5685aaaefc2ed78b01f0060fdfc3f07a2192d0beda09f",
+    "python": "3af7165c8a3b9d49db795260238be63262804e34a743ab5641ef397cedd0bca3"
+  },
+  "author_results_sha256": "cbdf62085603a8e85ae6081069fc9cf79fdcec6cca465ec4f05dc57df946ae97",
+  "feature_cache": "sample-wise, independent of labels and other cases"
+}

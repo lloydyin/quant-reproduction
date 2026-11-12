@@ -1,0 +1,20 @@
+.venv/
+.cache/
+__pycache__/
+reproduction/data/
+reproduction/data_extra/
+reproduction/downloads/
+reproduction/indices/
+reproduction/features/
+deliverables/
+# Manuscript maintained separately in Overleaf.
+/report/
+reproduction/reference/paper_text.txt
+*.pyc
+*.pyo
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

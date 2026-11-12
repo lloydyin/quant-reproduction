@@ -1,0 +1,5 @@
+dataset,resample,accuracy
+Coffee,0,1.0
+GunPoint,0,0.986667
+ItalyPowerDemand,0,0.965986
+Chinatown,0,0.982507

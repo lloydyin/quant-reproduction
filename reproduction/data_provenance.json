@@ -1,0 +1,695 @@
+{
+  "download_date": "2026-11-11",
+  "dataset_count": 142,
+  "source_manifest": {
+    "BME": {
+      "dataset": "BME",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/BME.zip",
+      "archive_sha256": "630e7c5592ecc8d84555722e507b26e32caf2e82cfa61571431226afa5c9df20",
+      "bytes": 254686
+    },
+    "Beef": {
+      "dataset": "Beef",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Beef.zip",
+      "archive_sha256": "e40a58f3f368cea6155a34ecfa0c28bcda7938c04e1e33f2e814999c0b6b143a",
+      "bytes": 432784
+    },
+    "ArrowHead": {
+      "dataset": "ArrowHead",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ArrowHead.zip",
+      "archive_sha256": "790a51e664c347df1e931ffc63afc93b1e718ff75c146e7a2d5c669e51b037c4",
+      "bytes": 776305
+    },
+    "BeetleFly": {
+      "dataset": "BeetleFly",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/BeetleFly.zip",
+      "archive_sha256": "76628ae49a3c786157692be5739928e36f8999ac4f7d6f6ec47d29a68cc64a6e",
+      "bytes": 311086
+    },
+    "BirdChicken": {
+      "dataset": "BirdChicken",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/BirdChicken.zip",
+      "archive_sha256": "fada1c7119d797b3bdc1aabd5837a3a7f474568765bcb1b64a6ae7d6ed4f70ac",
+      "bytes": 304461
+    },
+    "Adiac": {
+      "dataset": "Adiac",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Adiac.zip",
+      "archive_sha256": "9c808bcfc77f3cab0a640bfa23e680ccde91da6981962e63c0f4f0737dcf6390",
+      "bytes": 2039480
+    },
+    "Chinatown": {
+      "dataset": "Chinatown",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Chinatown.zip",
+      "archive_sha256": "45430f55d176e989d79c33c62b2f1d96edd9bc9c5433df2340b23ed53dc77538",
+      "bytes": 60643
+    },
+    "CBF": {
+      "dataset": "CBF",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/CBF.zip",
+      "archive_sha256": "63d74cc72c50b75ea82ba1b5cd7445e105679686490c95c339b09458d4317d70",
+      "bytes": 1809251
+    },
+    "Car": {
+      "dataset": "Car",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Car.zip",
+      "archive_sha256": "d1191fd7041816f1483fba9e8cd40c0cfe839d5f1acf1d26126904a735d81b3d",
+      "bytes": 1025045
+    },
+    "ACSF1": {
+      "dataset": "ACSF1",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ACSF1.zip",
+      "archive_sha256": "d48c43eb08ae6a6615e2ea55f53b54b6f46a5ee31579294c7e4da9235818b464",
+      "bytes": 1767110
+    },
+    "Coffee": {
+      "dataset": "Coffee",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Coffee.zip",
+      "archive_sha256": "bfba9d67f4a0f2041cb8ba88b60b11f10dab60b670e40b904ac47bd7dfdf4749",
+      "bytes": 246676
+    },
+    "Computers": {
+      "dataset": "Computers",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Computers.zip",
+      "archive_sha256": "482d87ec9dd6d933a7c42a393bce7e53f958d6a366c80dbbf01b5e40af57d6d1",
+      "bytes": 263702
+    },
+    "CricketY": {
+      "dataset": "CricketY",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/CricketY.zip",
+      "archive_sha256": "ddade2cb3bb8ea341186cb2376cd9406184d1df97f353d94e46823c2013601fe",
+      "bytes": 3553309
+    },
+    "CricketX": {
+      "dataset": "CricketX",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/CricketX.zip",
+      "archive_sha256": "aec1f7f8b3598f3dcdfce853e7f6eaa5d02f42ea89c7eca588821335b2b4e920",
+      "bytes": 3559019
+    },
+    "CricketZ": {
+      "dataset": "CricketZ",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/CricketZ.zip",
+      "archive_sha256": "a44b00e2453fda88710b9b72207d482e9328ed3e31047ff9384beee4439d0b62",
+      "bytes": 3559711
+    },
+    "DiatomSizeReduction": {
+      "dataset": "DiatomSizeReduction",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/DiatomSizeReduction.zip",
+      "archive_sha256": "88bdd98ee3f1fe0b4e35a6e683147757336a200a8ca6a9d125239025ca98f7ab",
+      "bytes": 1623245
+    },
+    "ChlorineConcentration": {
+      "dataset": "ChlorineConcentration",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ChlorineConcentration.zip",
+      "archive_sha256": "185d0239049dc138d0917fa8faea19084cf4e0c31cd963833c659714d113a129",
+      "bytes": 10842306
+    },
+    "DistalPhalanxOutlineAgeGroup": {
+      "dataset": "DistalPhalanxOutlineAgeGroup",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/DistalPhalanxOutlineAgeGroup.zip",
+      "archive_sha256": "979be463cb0aa63e705c4e2298c53c7924837fc9ffa102d505cdf73cd0ea24c6",
+      "bytes": 548729
+    },
+    "DistalPhalanxOutlineCorrect": {
+      "dataset": "DistalPhalanxOutlineCorrect",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/DistalPhalanxOutlineCorrect.zip",
+      "archive_sha256": "27925994c8a21cd4699519cdc07128f8cef8c8f3615088ecf6467ae55499f0a4",
+      "bytes": 902932
+    },
+    "DistalPhalanxTW": {
+      "dataset": "DistalPhalanxTW",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/DistalPhalanxTW.zip",
+      "archive_sha256": "e94cfddd034b2f3e049ff2554a925ccd727f29efb3573d5e5d40018a6efbfd56",
+      "bytes": 551796
+    },
+    "ECG200": {
+      "dataset": "ECG200",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ECG200.zip",
+      "archive_sha256": "755937ea37849346ea20033666b19d17345bb039971e8fa33458b16b62c09380",
+      "bytes": 298857
+    },
+    "Crop": {
+      "dataset": "Crop",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Crop.zip",
+      "archive_sha256": "6755bf248661ebfe9c3dba59f757d660f7d8ac97e7174c19543573cbe68909bd",
+      "bytes": 6093811
+    },
+    "ECGFiveDays": {
+      "dataset": "ECGFiveDays",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ECGFiveDays.zip",
+      "archive_sha256": "11457a2d590711598eac1a0ab5c58d43c5e3c5c2c86521809d69f7c0b6b3edd1",
+      "bytes": 1523014
+    },
+    "EOGVerticalSignal": {
+      "dataset": "EOGVerticalSignal",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/EOGVerticalSignal.zip",
+      "archive_sha256": "a2b37c19f46c2fae58b2aedee21426fd92cda67b42b64f62219af5f6644acea6",
+      "bytes": 8436384
+    },
+    "Earthquakes": {
+      "dataset": "Earthquakes",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Earthquakes.zip",
+      "archive_sha256": "927cfb732988055850a74efa169dfd633bc7f578095c35319bebb83453501bf1",
+      "bytes": 781477
+    },
+    "EOGHorizontalSignal": {
+      "dataset": "EOGHorizontalSignal",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/EOGHorizontalSignal.zip",
+      "archive_sha256": "ad2c70d84b01eae96c84165bef9a1e16256a12065d49ad38a8a77ca850f455a9",
+      "bytes": 8167785
+    },
+    "ElectricDevices": {
+      "dataset": "ElectricDevices",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ElectricDevices.zip",
+      "archive_sha256": "0d63e83f7b49e90c7d0bd4bb20320e2b26719da596e0d96de6581bbeecca58d5",
+      "bytes": 5327513
+    },
+    "ECG5000": {
+      "dataset": "ECG5000",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ECG5000.zip",
+      "archive_sha256": "41f6de20ac895e9ce31753860995518951f1ed42a405d0e51c909d27e3b3c5a4",
+      "bytes": 10614407
+    },
+    "FaceFour": {
+      "dataset": "FaceFour",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/FaceFour.zip",
+      "archive_sha256": "86311f527d66aab7e6a17d89870787c9a95fb418ae2056cd6d448241ad8536c1",
+      "bytes": 377521
+    },
+    "CinCECGTorso": {
+      "dataset": "CinCECGTorso",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/CinCECGTorso.zip",
+      "archive_sha256": "12d79e4375e141e93386df8a354367837b5a47cc007ec68c10465fcc1d3d7b64",
+      "bytes": 29418455
+    },
+    "FacesUCR": {
+      "dataset": "FacesUCR",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/FacesUCR.zip",
+      "archive_sha256": "fb33ac1bb05dde55532c8e12bf4931b39d3b15d24fef132ebd384a1366ab6724",
+      "bytes": 4508432
+    },
+    "FiftyWords": {
+      "dataset": "FiftyWords",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/FiftyWords.zip",
+      "archive_sha256": "769cfba3cbefb5a1762faa616411672bd66a19b990877c37657a50149d45189a",
+      "bytes": 3693315
+    },
+    "Fish": {
+      "dataset": "Fish",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Fish.zip",
+      "archive_sha256": "5bd72f74fc6f4fc591df3138fc8d09cd0be899401d1464fe0392a9ab4648a56f",
+      "bytes": 2395350
+    },
+    "FaceAll": {
+      "dataset": "FaceAll",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/FaceAll.zip",
+      "archive_sha256": "a83d38efac3c646a718d1d9bc27346e55c8b05e5543cf8f6bbe9eebbb8ff41e6",
+      "bytes": 4494252
+    },
+    "FreezerRegularTrain": {
+      "dataset": "FreezerRegularTrain",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/FreezerRegularTrain.zip",
+      "archive_sha256": "93a0be8980eafc0e34751b743e0b5665c58e8612c33b86a100591a9e6e83023a",
+      "bytes": 10499689
+    },
+    "EthanolLevel": {
+      "dataset": "EthanolLevel",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/EthanolLevel.zip",
+      "archive_sha256": "1b0d4614fff10a998bf3abf40aaa915cfe62e97cfb7a7a67e9b24c35fa0f673c",
+      "bytes": 24066825
+    },
+    "GunPoint": {
+      "dataset": "GunPoint",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/GunPoint.zip",
+      "archive_sha256": "d7513cfe222418fabfdb5a6434ffb21ac3de4923e637971e9388ebc857816803",
+      "bytes": 435433
+    },
+    "FreezerSmallTrain": {
+      "dataset": "FreezerSmallTrain",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/FreezerSmallTrain.zip",
+      "archive_sha256": "5f9b3d88247c6a4b20e9e701f42d0407b43763897ad8cd603a6eed7dceb8f3f2",
+      "bytes": 10071497
+    },
+    "GunPointAgeSpan": {
+      "dataset": "GunPointAgeSpan",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/GunPointAgeSpan.zip",
+      "archive_sha256": "662f1c4d91a27170e52041158a25be4bf97e4d9e84b83f42bd5a49233ec4b19f",
+      "bytes": 928731
+    },
+    "GunPointMaleVersusFemale": {
+      "dataset": "GunPointMaleVersusFemale",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/GunPointMaleVersusFemale.zip",
+      "archive_sha256": "5c7dd3f4ca5cf449dd62c765b1e9ba11f0800d4851ecb8fcb1a7b0ffda7a8bb8",
+      "bytes": 923648
+    },
+    "GunPointOldVersusYoung": {
+      "dataset": "GunPointOldVersusYoung",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/GunPointOldVersusYoung.zip",
+      "archive_sha256": "d172afc584095856cfc9053541ef82d06305dd78103b14bf16ef74f1690eb137",
+      "bytes": 918660
+    },
+    "Ham": {
+      "dataset": "Ham",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Ham.zip",
+      "archive_sha256": "2f0f001691e414c11725fde43e07994173bd5840b6c289eb59ccc69afb1555a4",
+      "bytes": 1249796
+    },
+    "Haptics": {
+      "dataset": "Haptics",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Haptics.zip",
+      "archive_sha256": "dd64941e8e7ab9902920216ef68f1880d3b365aed184960d817fda43650952cb",
+      "bytes": 7490398
+    },
+    "Herring": {
+      "dataset": "Herring",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Herring.zip",
+      "archive_sha256": "47883c317b8e11ec119d675140fd3f06289e7bd065956f4125075b336597262c",
+      "bytes": 978852
+    },
+    "HouseTwenty": {
+      "dataset": "HouseTwenty",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/HouseTwenty.zip",
+      "archive_sha256": "22695841c256be5c20c921ce6c0e2a4e822d4ab6713d02f4ac6382afb53f41c9",
+      "bytes": 1323221
+    },
+    "FordA": {
+      "dataset": "FordA",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/FordA.zip",
+      "archive_sha256": "4d78a72e5165e8da40c51115a8219c9d01978aafac6334ed8dfabd29da359ffb",
+      "bytes": 36365254
+    },
+    "InsectEPGRegularTrain": {
+      "dataset": "InsectEPGRegularTrain",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/InsectEPGRegularTrain.zip",
+      "archive_sha256": "41b0fa9b1f375e54736c992be6ced4a55d688dc59b4b5791cfec07e5fd2b9da5",
+      "bytes": 705195
+    },
+    "FordB": {
+      "dataset": "FordB",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/FordB.zip",
+      "archive_sha256": "a73810d108de24bae741de3b67a5f73286f9913da47d3dfbf73ce55b9386fff8",
+      "bytes": 33714880
+    },
+    "InsectEPGSmallTrain": {
+      "dataset": "InsectEPGSmallTrain",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/InsectEPGSmallTrain.zip",
+      "archive_sha256": "98dfcbf3edb8daea8211d4512e148456dd0e22d0616566e8bdef213cf01e28d0",
+      "bytes": 599459
+    },
+    "ItalyPowerDemand": {
+      "dataset": "ItalyPowerDemand",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ItalyPowerDemand.zip",
+      "archive_sha256": "4b68635dc79855fbdb7787d5dff5bac978fd0448afaa8eb7811dae52d43e5e46",
+      "bytes": 380040
+    },
+    "LargeKitchenAppliances": {
+      "dataset": "LargeKitchenAppliances",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/LargeKitchenAppliances.zip",
+      "archive_sha256": "e3fef6f6dcffcd5f082ea7b562260b413d28cddc371b2ee89347d292d61984af",
+      "bytes": 502873
+    },
+    "InsectWingbeatSound": {
+      "dataset": "InsectWingbeatSound",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/InsectWingbeatSound.zip",
+      "archive_sha256": "1267855b9fe399d47af83e5c5c2a29af5b543d3598b5aef220d62f596a01dafc",
+      "bytes": 8324747
+    },
+    "Lightning2": {
+      "dataset": "Lightning2",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Lightning2.zip",
+      "archive_sha256": "3335b5d8d2a8145c5fafc5e698b229b0cf1f89d623dd0a28f91e844691ed1198",
+      "bytes": 998005
+    },
+    "Lightning7": {
+      "dataset": "Lightning7",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Lightning7.zip",
+      "archive_sha256": "0a020f77af1e49d46250ca12ff6fe37997fc6cd1c649828e10d0da01299d5591",
+      "bytes": 594704
+    },
+    "Meat": {
+      "dataset": "Meat",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Meat.zip",
+      "archive_sha256": "2a45c20ef4c226a10e18ad36581d7d5cbe9ba12e9b67e6d9d3b091c21a012202",
+      "bytes": 789828
+    },
+    "HandOutlines": {
+      "dataset": "HandOutlines",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/HandOutlines.zip",
+      "archive_sha256": "786d456b927fd85e614f42b189c59f23a60678da4ec6c2a08f2519b9e21c25fb",
+      "bytes": 42350229
+    },
+    "MiddlePhalanxOutlineAgeGroup": {
+      "dataset": "MiddlePhalanxOutlineAgeGroup",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/MiddlePhalanxOutlineAgeGroup.zip",
+      "archive_sha256": "c717dd664d40cce23f86caee6f3b16d584c7ca469d1fae45f189e0969fbd20be",
+      "bytes": 578968
+    },
+    "MedicalImages": {
+      "dataset": "MedicalImages",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/MedicalImages.zip",
+      "archive_sha256": "dd58761619a92eabffc2691f22aa7639040f74a1840238a8512f766a05e2ead4",
+      "bytes": 1713895
+    },
+    "MiddlePhalanxOutlineCorrect": {
+      "dataset": "MiddlePhalanxOutlineCorrect",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/MiddlePhalanxOutlineCorrect.zip",
+      "archive_sha256": "77ca10ea2c7c6367ce75bd8e2c38377bea5f186a19a706a6e30777fa90c280bf",
+      "bytes": 935493
+    },
+    "MiddlePhalanxTW": {
+      "dataset": "MiddlePhalanxTW",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/MiddlePhalanxTW.zip",
+      "archive_sha256": "215c861455c1de8c4ea31bbd71cf6bf881a4b9d74f61c2c2b00f2a84791a4d2c",
+      "bytes": 581228
+    },
+    "InlineSkate": {
+      "dataset": "InlineSkate",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/InlineSkate.zip",
+      "archive_sha256": "84b7adff1c8ac195debf4a9fdbb1556ac57adce3939f18e937334386e15fc6f7",
+      "bytes": 17650233
+    },
+    "MoteStrain": {
+      "dataset": "MoteStrain",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/MoteStrain.zip",
+      "archive_sha256": "6ccfe013529ae2622283e93e087dc24fefb18d6c4a99bf6274a555c298bbe5e1",
+      "bytes": 1590070
+    },
+    "Mallat": {
+      "dataset": "Mallat",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Mallat.zip",
+      "archive_sha256": "07ba7641fc81b472eb863ce392b355d5cefda0e7178ac0d30cf7cd735c796292",
+      "bytes": 35848228
+    },
+    "NonInvasiveFetalECGThorax1": {
+      "dataset": "NonInvasiveFetalECGThorax1",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/NonInvasiveFetalECGThorax1.zip",
+      "archive_sha256": "db84a4b338ddd094777b5c2b8c164a460fa5800adfa7ddf708692a41b88f9810",
+      "bytes": 41872612
+    },
+    "MixedShapesSmallTrain": {
+      "dataset": "MixedShapesSmallTrain",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/MixedShapesSmallTrain.zip",
+      "archive_sha256": "6a98c9f72ce3cd32a09e3ff6dc9ac9064133e3cb2f716c5eef8d1d805f8e82ab",
+      "bytes": 38310477
+    },
+    "OliveOil": {
+      "dataset": "OliveOil",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/OliveOil.zip",
+      "archive_sha256": "eb25894f92858611b641c77f3ce8e1cfca6312dd3945d07b96c392e5dc6b24c6",
+      "bytes": 520986
+    },
+    "OSULeaf": {
+      "dataset": "OSULeaf",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/OSULeaf.zip",
+      "archive_sha256": "9950d9e17d32bd457cf16ad1347d1031e0e0d4d4a205a38ef67beda6f9d66388",
+      "bytes": 2853760
+    },
+    "PhalangesOutlinesCorrect": {
+      "dataset": "PhalangesOutlinesCorrect",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/PhalangesOutlinesCorrect.zip",
+      "archive_sha256": "41938528ef09228cb31786e63e953b23288855d0453cadb65b7f2d7c0b323f89",
+      "bytes": 2693991
+    },
+    "NonInvasiveFetalECGThorax2": {
+      "dataset": "NonInvasiveFetalECGThorax2",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/NonInvasiveFetalECGThorax2.zip",
+      "archive_sha256": "b3c3d5f2485d8b2e94332d19c2440c76c5a7b37d1f5c7c75405d763a67b87ff9",
+      "bytes": 41799994
+    },
+    "PigAirwayPressure": {
+      "dataset": "PigAirwayPressure",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/PigAirwayPressure.zip",
+      "archive_sha256": "a9a1d7d0e6884f35cda6d525fbee1453ff703b6a7d70dcb3a8c39f6efc44ddf3",
+      "bytes": 5493998
+    },
+    "PigArtPressure": {
+      "dataset": "PigArtPressure",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/PigArtPressure.zip",
+      "archive_sha256": "da3831342f6206c3071d1965f5e4af673a46d1c78f71839e35eaaba581ff95b3",
+      "bytes": 7655140
+    },
+    "PigCVP": {
+      "dataset": "PigCVP",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/PigCVP.zip",
+      "archive_sha256": "6606778188afc3126154a68d5c0a5fb28b3df1b1c1fd9ff6a835c31f3c45e336",
+      "bytes": 5277686
+    },
+    "Plane": {
+      "dataset": "Plane",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Plane.zip",
+      "archive_sha256": "7689cc0f02e99c9bf50af573bb67db2b516150906bc4ac430223f73763c58101",
+      "bytes": 464763
+    },
+    "PowerCons": {
+      "dataset": "PowerCons",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/PowerCons.zip",
+      "archive_sha256": "cd750fb434968606207c2b4e09fe05177c8b6d59d0449b1240bffdac0ffa30d1",
+      "bytes": 220584
+    },
+    "ProximalPhalanxOutlineAgeGroup": {
+      "dataset": "ProximalPhalanxOutlineAgeGroup",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ProximalPhalanxOutlineAgeGroup.zip",
+      "archive_sha256": "9a67e846b01b5b1d531ecacad4e9eda54966f6f11495532de8ca266c3d972a48",
+      "bytes": 620521
+    },
+    "ProximalPhalanxOutlineCorrect": {
+      "dataset": "ProximalPhalanxOutlineCorrect",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ProximalPhalanxOutlineCorrect.zip",
+      "archive_sha256": "afc4c420408e11c4bc2fbc80d455e2cc3743db7e0729cc0c8da50cc03bcd9bc4",
+      "bytes": 878826
+    },
+    "ProximalPhalanxTW": {
+      "dataset": "ProximalPhalanxTW",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ProximalPhalanxTW.zip",
+      "archive_sha256": "f6cf40a65f1208c798fcce8f0546069096b190d62f0e4e3faa8cf1ad03ef0ac9",
+      "bytes": 625665
+    },
+    "RefrigerationDevices": {
+      "dataset": "RefrigerationDevices",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/RefrigerationDevices.zip",
+      "archive_sha256": "26b5cfa664e5b60e4c5bfa43e802f87178c7e175e01a22df125f97764214318d",
+      "bytes": 790267
+    },
+    "Rock": {
+      "dataset": "Rock",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Rock.zip",
+      "archive_sha256": "44cd0b251ee43974b35edc13bf899c1a9a2202e2fd9a63446fb17db496b1ae43",
+      "bytes": 1765199
+    },
+    "ScreenType": {
+      "dataset": "ScreenType",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ScreenType.zip",
+      "archive_sha256": "9b1acf8a4577b81df5af19233c7a347e41eee037ff68782cd5ac87efef1de682",
+      "bytes": 379543
+    },
+    "MixedShapesRegularTrain": {
+      "dataset": "MixedShapesRegularTrain",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/MixedShapesRegularTrain.zip",
+      "archive_sha256": "8e27094692c0f68fac4f6389801626f56a49251540c84a83959de9a799935f79",
+      "bytes": 44370328
+    },
+    "SemgHandSubjectCh2": {
+      "dataset": "SemgHandSubjectCh2",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/SemgHandSubjectCh2.zip",
+      "archive_sha256": "8d3c31d0dc8d80e2bf345dfb9d8798995835263e38b35485c7d8d2dbd96d33a1",
+      "bytes": 19452793
+    },
+    "Phoneme": {
+      "dataset": "Phoneme",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Phoneme.zip",
+      "archive_sha256": "409c5cc3feadea461a34e7319e12421e3b1e1477aff061d6ec8a962feba346cb",
+      "bytes": 32948844
+    },
+    "ShapeletSim": {
+      "dataset": "ShapeletSim",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ShapeletSim.zip",
+      "archive_sha256": "9cc80688580f04cbea11d9c14d6c0a2bae81250c484520a5f98ea38e47afcdf0",
+      "bytes": 1494221
+    },
+    "SmallKitchenAppliances": {
+      "dataset": "SmallKitchenAppliances",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/SmallKitchenAppliances.zip",
+      "archive_sha256": "6a7dad354a9d8dc5c9d6f1615653186bbeb870460095e2929182ff4470d20d9e",
+      "bytes": 329438
+    },
+    "SmoothSubspace": {
+      "dataset": "SmoothSubspace",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/SmoothSubspace.zip",
+      "archive_sha256": "bb296f5911d01d44f772ae4c47aa6963994f0f25d854f1a18c8d237a458e28f3",
+      "bytes": 75131
+    },
+    "SonyAIBORobotSurface1": {
+      "dataset": "SonyAIBORobotSurface1",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/SonyAIBORobotSurface1.zip",
+      "archive_sha256": "a1bc219e21c73c875f8eebd6ad46598ac696a32794c98c9c7c802ac093d4523b",
+      "bytes": 331858
+    },
+    "SonyAIBORobotSurface2": {
+      "dataset": "SonyAIBORobotSurface2",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/SonyAIBORobotSurface2.zip",
+      "archive_sha256": "0e76ea43816e5f2e67010c09932c1fbffd50513d93633f4fd9073667eeee9fe2",
+      "bytes": 497994
+    },
+    "ShapesAll": {
+      "dataset": "ShapesAll",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ShapesAll.zip",
+      "archive_sha256": "8fc7262de771e4e70ea1ca8208e79f47007601d46729e324b0dd1d3e89e81a02",
+      "bytes": 8697296
+    },
+    "SemgHandGenderCh2": {
+      "dataset": "SemgHandGenderCh2",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/SemgHandGenderCh2.zip",
+      "archive_sha256": "07adf8df8d849abbafc62a9efe4dc1723ef2fadd223b8737b110ba11742042e1",
+      "bytes": 19480650
+    },
+    "SwedishLeaf": {
+      "dataset": "SwedishLeaf",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/SwedishLeaf.zip",
+      "archive_sha256": "4b088db4c24c909dfc24ddb9bdaca45a16be1ae7883b1f25bb254567db3d0287",
+      "bytes": 2076950
+    },
+    "Strawberry": {
+      "dataset": "Strawberry",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Strawberry.zip",
+      "archive_sha256": "1293ba770d15817be769958f077cab6f76d65a66465aff80ed393d1e80a71e00",
+      "bytes": 3464338
+    },
+    "SyntheticControl": {
+      "dataset": "SyntheticControl",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/SyntheticControl.zip",
+      "archive_sha256": "cebfae7548078e1de26292fd3b12222a3f63812e03a88cdf48ff5e7cca3511e5",
+      "bytes": 552537
+    },
+    "ToeSegmentation1": {
+      "dataset": "ToeSegmentation1",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ToeSegmentation1.zip",
+      "archive_sha256": "bfdb133a828e69fad417ae8f36ac673290ec56f7b589c54fed3c2d84f6385ad9",
+      "bytes": 1133086
+    },
+    "ToeSegmentation2": {
+      "dataset": "ToeSegmentation2",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/ToeSegmentation2.zip",
+      "archive_sha256": "c71d4b53c6dbe0fdcaa0293ac1cc97d05ecd9f6992332d4d19309f6d7086ed54",
+      "bytes": 780857
+    },
+    "Symbols": {
+      "dataset": "Symbols",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Symbols.zip",
+      "archive_sha256": "32e1cb5d5882851e4bf19110580fce5219daa5d09bdf9fa5c499abfb7c55cca3",
+      "bytes": 5416693
+    },
+    "Trace": {
+      "dataset": "Trace",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Trace.zip",
+      "archive_sha256": "46fdce1d24e8a1b823c8461b2b9f2b2333c01d4eb55af33e6a8bfd04e41c6a0f",
+      "bytes": 795844
+    },
+    "TwoLeadECG": {
+      "dataset": "TwoLeadECG",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/TwoLeadECG.zip",
+      "archive_sha256": "f747b239fdc4f2657546ad2789290029c219b06fe0b58059a83c004a16f3d9a8",
+      "bytes": 1260908
+    },
+    "SemgHandMovementCh2": {
+      "dataset": "SemgHandMovementCh2",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/SemgHandMovementCh2.zip",
+      "archive_sha256": "5912cd34efeb064929fa80109d647dba12a4dbf4485fe8e37e522ae5776174bc",
+      "bytes": 19420257
+    },
+    "UMD": {
+      "dataset": "UMD",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/UMD.zip",
+      "archive_sha256": "cf521fa6472ddc5548e90662bd1e7e4cfecc1a932e12c304056da3b839c8af96",
+      "bytes": 313950
+    },
+    "TwoPatterns": {
+      "dataset": "TwoPatterns",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/TwoPatterns.zip",
+      "archive_sha256": "86e59d0d1bfb917335f54c13b5a9632ba8765b8ce3f06ac481de67778516f960",
+      "bytes": 6778727
+    },
+    "UWaveGestureLibraryX": {
+      "dataset": "UWaveGestureLibraryX",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/UWaveGestureLibraryX.zip",
+      "archive_sha256": "10f1896bc32a2010778b71ceb1f1451e479fb711dd95bbc5eba820ef04b74133",
+      "bytes": 16072397
+    },
+    "UWaveGestureLibraryAll": {
+      "dataset": "UWaveGestureLibraryAll",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/UWaveGestureLibraryAll.zip",
+      "archive_sha256": "fedcbb271e7149bd07fb564b66d2d62c98acbb6eb7857ba8267d95da12ca5f2a",
+      "bytes": 46615822
+    },
+    "Wafer": {
+      "dataset": "Wafer",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Wafer.zip",
+      "archive_sha256": "06032db83b3f6f3f39ef4b65433061dde9b2593b956caa1ad1ae9ad260a36be4",
+      "bytes": 6895222
+    },
+    "Wine": {
+      "dataset": "Wine",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Wine.zip",
+      "archive_sha256": "bb2ec5d1a14162c5f11e5bf770f0b5bac32776b66fad691e3b43f3276f25199f",
+      "bytes": 388159
+    },
+    "UWaveGestureLibraryZ": {
+      "dataset": "UWaveGestureLibraryZ",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/UWaveGestureLibraryZ.zip",
+      "archive_sha256": "19311edd6c8b84a00c1d53a81f36a5f556e6f398a910467437c31e77cb3e4fd5",
+      "bytes": 16191835
+    },
+    "WordSynonyms": {
+      "dataset": "WordSynonyms",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/WordSynonyms.zip",
+      "archive_sha256": "283e84d683baa9a5fa22bdeb4c63b1c253f847e329dc7f0132a378552aa9dc68",
+      "bytes": 3266497
+    },
+    "Worms": {
+      "dataset": "Worms",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Worms.zip",
+      "archive_sha256": "5d027c8f26730fe257af506bd806ab41ca92ead3019d5536c23b52c78f2ee5c9",
+      "bytes": 2583019
+    },
+    "WormsTwoClass": {
+      "dataset": "WormsTwoClass",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/WormsTwoClass.zip",
+      "archive_sha256": "0aee2c063edb4e226fb5e2eb5cf95154c2ac63b595dd219bdfb0576a9cfe2c33",
+      "bytes": 2583157
+    },
+    "UWaveGestureLibraryY": {
+      "dataset": "UWaveGestureLibraryY",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/UWaveGestureLibraryY.zip",
+      "archive_sha256": "4e7226d134e45da3f42f1654f811aea192e235e007d7c3705f7a6fab3207706a",
+      "bytes": 14951062
+    },
+    "Yoga": {
+      "dataset": "Yoga",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/Yoga.zip",
+      "archive_sha256": "0d60db1d03c16e469b80a32705d9bbcadeddbb032d3b728ff2f55827207a2f29",
+      "bytes": 20908976
+    },
+    "StarLightCurves": {
+      "dataset": "StarLightCurves",
+      "url": "https://www.timeseriesclassification.com/aeon-toolkit/StarLightCurves.zip",
+      "archive_sha256": "f5a3b1646837eabee4b292313263fc40a00524df9ab14e0c4c901829f63bbf33",
+      "bytes": 110113813
+    },
+    "java_indices": {
+      "url": "https://drive.google.com/file/d/1FsG7Fp74y_TpaPhJ7U066ot8A07BPhr3/view",
+      "archive_sha256": "1a0bec9f78a4dedd23e5685aaaefc2ed78b01f0060fdfc3f07a2192d0beda09f",
+      "bytes": 15510819
+    },
+    "python_indices": {
+      "url": "https://drive.google.com/file/d/1aLBP_nhnoqz075puKg30zuF3F_QBOXYM/view",
+      "archive_sha256": "3af7165c8a3b9d49db795260238be63262804e34a743ab5641ef397cedd0bca3",
+      "bytes": 15546462
+    },
+    "new_datasets": {
+      "url": "https://drive.google.com/file/d/1vuh6mgNrNKjHr9MMRQP0J0_gGA4dE7E3/view",
+      "archive_sha256": "6af89e9119c7bcff5f33a7139e0c81ccbfc38c1eb6c0a8c9e25464dc49f62d68",
+      "bytes": 396236965
+    }
+  },
+  "preprint_code_commit": "5956b7252464d2c17e3b541e051b05f03c7442ff",
+  "current_multivariate_update_commit": "f3907f7e531b6a304e3c54310869a0023a9e0fd6"
+}

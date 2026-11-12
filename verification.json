@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "primary_rows": 4260,
+  "extension_rows": 3550,
+  "matching_baselines": 710,
+  "development_rows": 504,
+  "historical_diagnostic_fits": 290,
+  "historical_diagnostic_original_rows_reused": 10,
+  "official_index_membership_checks": 870,
+  "checked_original_sources": [
+    "quant/code/quant.py",
+    "quant/code/run.py",
+    "quant/code/ucr142.txt",
+    "quant/results/accuracy_resamples_ucr142.csv",
+    "quant/results/accuracy_mean_ucr142.csv"
+  ],
+  "protocol_and_settings_hashes_valid": true,
+  "recorded_numerical_validation_datasets": 4
+}

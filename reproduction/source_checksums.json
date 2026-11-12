@@ -1,0 +1,8 @@
+{
+  "quant/code/quant.py": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a",
+  "quant/code/run.py": "8c1fde67de9c90d6b7fe122e0f5e510dfbb8b11b8a1401170eb18efe94143ec7",
+  "quant/code/ucr142.txt": "355c3142e5cb47a3dceaedc170208038fd012409532c5dc2fc3df4278097df6f",
+  "quant/results/accuracy_resamples_ucr142.csv": "cbdf62085603a8e85ae6081069fc9cf79fdcec6cca465ec4f05dc57df946ae97",
+  "quant/results/accuracy_mean_ucr142.csv": "1d0311b6c3f97ecb57d4e18c0684e9ac45a4d402e70f7e92573f385118bc575c",
+  "Dempster et al. - 2023 - QUANT A Minimalist Interval Method for Time Series Classification.pdf": "1da4e8040f13066d9f2f5f231ff3b0681e47a0730ce96bb4fa3a5cc07b9c6771"
+}

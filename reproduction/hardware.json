@@ -1,0 +1,10 @@
+{
+  "cpu": "12th Gen Intel(R) Core(TM) i7-12700H",
+  "logical_processors": 20,
+  "usable_ram_gib": 15.629497528076172,
+  "platform": "Windows-10-10.0.26200-SP0",
+  "compute_device": "CPU",
+  "torch_threads": 1,
+  "full_experiment_classifier_threads": 8,
+  "max_concurrent_dataset_processes": 2
+}

@@ -1,0 +1,59 @@
+{
+  "datasets_with_results": 142,
+  "completed_runs": 4260,
+  "expected_runs": 4260,
+  "datasets_with_30_resamples": 142,
+  "full_reproduction_complete": true,
+  "missing_datasets": [],
+  "minimum_resamples": 30,
+  "maximum_resamples": 30,
+  "macro_accuracy_available": 0.855100450252886,
+  "paper_matched_macro_accuracy": 0.8567735147887323,
+  "paper_all142_30resamples_macro_accuracy": 0.8567735140845072,
+  "groups": [
+    {
+      "group": "All available",
+      "datasets": 142,
+      "ours": 0.855100450252886,
+      "paper_matched": 0.8567735147887323,
+      "difference_pp": -0.16730845070422537,
+      "wilcoxon_p": 0.6985684213755121,
+      "wins": 68,
+      "ties": 10,
+      "losses": 64
+    },
+    {
+      "group": "Excluding 4 corrected datasets",
+      "datasets": 138,
+      "ours": 0.8547795102960474,
+      "paper_matched": 0.8546346688405798,
+      "difference_pp": 0.014481884057971016,
+      "wilcoxon_p": 0.8333032576276974,
+      "wins": 68,
+      "ties": 10,
+      "losses": 60
+    },
+    {
+      "group": "Original 112",
+      "datasets": 112,
+      "ours": 0.8671080639726394,
+      "paper_matched": 0.8671313991071429,
+      "difference_pp": -0.002336607142857147,
+      "wilcoxon_p": 0.9409916294495397,
+      "wins": 54,
+      "ties": 9,
+      "losses": 49
+    },
+    {
+      "group": "Additional 30",
+      "datasets": 30,
+      "ours": 0.8102720256991401,
+      "paper_matched": 0.8181040800000001,
+      "difference_pp": -0.7832033333333334,
+      "wilcoxon_p": 0.46883416943806333,
+      "wins": 14,
+      "ties": 1,
+      "losses": 15
+    }
+  ]
+}
